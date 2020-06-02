@@ -1,0 +1,3337 @@
+^PLATFORM = GPL8227
+!Platform_title = Agilent-019118 Human miRNA Microarray 2.0 G4470B (miRNA ID version)
+!Platform_geo_accession = GPL8227
+!Platform_status = Public on Feb 26 2009
+!Platform_submission_date = Feb 25 2009
+!Platform_last_update_date = May 07 2014
+!Platform_technology = in situ oligonucleotide
+!Platform_distribution = commercial
+!Platform_organism = Homo sapiens
+!Platform_taxid = 9606
+!Platform_manufacturer = Agilent Technologies
+!Platform_manufacture_protocol = see manufacturer's web site at http://www.agilent.com/
+!Platform_catalog_number = G4470B
+!Platform_description = The Human miRNA Microarray contains probes for 723 human and 76 human viral microRNAs from the Sanger database v.10.1. Integrating Agilent's probe design and unique labeling methods, this microarray delivers robust data with a simple, streamlined protocol. The generation of complete miRNA expression profiles using robust and highly sensitive microarrays allows broad insight into human miRNA expression and regulation.    This platform is based on the GeneView file produced by Agilent's feature extraction software.
+!Platform_contact_name =  ,,Agilent Technologies
+!Platform_contact_email = cag_sales-na@agilent.com
+!Platform_contact_phone = 877-424-4536
+!Platform_contact_department =  
+!Platform_contact_institute = Agilent Technologies
+!Platform_contact_address =  
+!Platform_contact_city = Palo Alto
+!Platform_contact_state = CA
+!Platform_contact_zip/postal_code = 94304
+!Platform_contact_country = USA
+!Platform_contact_web_link = www.agilent.com
+!Platform_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL8nnn/GPL8227/suppl/GPL8227_array_layout.txt.gz
+!Platform_relation = Alternative to: GPL7731
+!Platform_sample_id = GSM374102
+!Platform_sample_id = GSM374103
+!Platform_sample_id = GSM374104
+!Platform_sample_id = GSM374105
+!Platform_sample_id = GSM374106
+!Platform_sample_id = GSM374107
+!Platform_sample_id = GSM374108
+!Platform_sample_id = GSM374109
+!Platform_sample_id = GSM374110
+!Platform_sample_id = GSM374111
+!Platform_sample_id = GSM374112
+!Platform_sample_id = GSM374113
+!Platform_sample_id = GSM374114
+!Platform_sample_id = GSM374115
+!Platform_sample_id = GSM374116
+!Platform_sample_id = GSM374117
+!Platform_sample_id = GSM374118
+!Platform_sample_id = GSM374119
+!Platform_sample_id = GSM374120
+!Platform_sample_id = GSM374121
+!Platform_sample_id = GSM374122
+!Platform_sample_id = GSM374123
+!Platform_sample_id = GSM374124
+!Platform_sample_id = GSM374125
+!Platform_sample_id = GSM374126
+!Platform_sample_id = GSM374127
+!Platform_sample_id = GSM374128
+!Platform_sample_id = GSM374129
+!Platform_sample_id = GSM374130
+!Platform_sample_id = GSM374131
+!Platform_sample_id = GSM374132
+!Platform_sample_id = GSM374133
+!Platform_sample_id = GSM375655
+!Platform_sample_id = GSM375656
+!Platform_sample_id = GSM375657
+!Platform_sample_id = GSM375658
+!Platform_sample_id = GSM375659
+!Platform_sample_id = GSM375660
+!Platform_sample_id = GSM375661
+!Platform_sample_id = GSM375662
+!Platform_sample_id = GSM375663
+!Platform_sample_id = GSM378381
+!Platform_sample_id = GSM378382
+!Platform_sample_id = GSM378383
+!Platform_sample_id = GSM378384
+!Platform_sample_id = GSM378385
+!Platform_sample_id = GSM378386
+!Platform_sample_id = GSM378387
+!Platform_sample_id = GSM378388
+!Platform_sample_id = GSM378389
+!Platform_sample_id = GSM378390
+!Platform_sample_id = GSM378391
+!Platform_sample_id = GSM378392
+!Platform_sample_id = GSM378393
+!Platform_sample_id = GSM378394
+!Platform_sample_id = GSM378395
+!Platform_sample_id = GSM378396
+!Platform_sample_id = GSM378397
+!Platform_sample_id = GSM378398
+!Platform_sample_id = GSM400357
+!Platform_sample_id = GSM400358
+!Platform_sample_id = GSM400359
+!Platform_sample_id = GSM412071
+!Platform_sample_id = GSM412072
+!Platform_sample_id = GSM412475
+!Platform_sample_id = GSM412733
+!Platform_sample_id = GSM412747
+!Platform_sample_id = GSM412749
+!Platform_sample_id = GSM412751
+!Platform_sample_id = GSM412752
+!Platform_sample_id = GSM412754
+!Platform_sample_id = GSM412755
+!Platform_sample_id = GSM412756
+!Platform_sample_id = GSM412757
+!Platform_sample_id = GSM412758
+!Platform_sample_id = GSM412759
+!Platform_sample_id = GSM412760
+!Platform_sample_id = GSM412761
+!Platform_sample_id = GSM412762
+!Platform_sample_id = GSM412764
+!Platform_sample_id = GSM412766
+!Platform_sample_id = GSM412787
+!Platform_sample_id = GSM412789
+!Platform_sample_id = GSM412790
+!Platform_sample_id = GSM412791
+!Platform_sample_id = GSM412792
+!Platform_sample_id = GSM412794
+!Platform_sample_id = GSM412795
+!Platform_sample_id = GSM412796
+!Platform_sample_id = GSM412797
+!Platform_sample_id = GSM422403
+!Platform_sample_id = GSM422404
+!Platform_sample_id = GSM422405
+!Platform_sample_id = GSM436217
+!Platform_sample_id = GSM436218
+!Platform_sample_id = GSM436219
+!Platform_sample_id = GSM436220
+!Platform_sample_id = GSM436221
+!Platform_sample_id = GSM436222
+!Platform_sample_id = GSM436223
+!Platform_sample_id = GSM436224
+!Platform_sample_id = GSM436225
+!Platform_sample_id = GSM436226
+!Platform_sample_id = GSM436227
+!Platform_sample_id = GSM436228
+!Platform_sample_id = GSM436229
+!Platform_sample_id = GSM436230
+!Platform_sample_id = GSM436231
+!Platform_sample_id = GSM436232
+!Platform_sample_id = GSM436233
+!Platform_sample_id = GSM436234
+!Platform_sample_id = GSM436235
+!Platform_sample_id = GSM436236
+!Platform_sample_id = GSM436237
+!Platform_sample_id = GSM436238
+!Platform_sample_id = GSM436239
+!Platform_sample_id = GSM436240
+!Platform_sample_id = GSM436241
+!Platform_sample_id = GSM436242
+!Platform_sample_id = GSM436243
+!Platform_sample_id = GSM436244
+!Platform_sample_id = GSM436245
+!Platform_sample_id = GSM436246
+!Platform_sample_id = GSM436247
+!Platform_sample_id = GSM436248
+!Platform_sample_id = GSM436249
+!Platform_sample_id = GSM436250
+!Platform_sample_id = GSM436251
+!Platform_sample_id = GSM436252
+!Platform_sample_id = GSM436253
+!Platform_sample_id = GSM436254
+!Platform_sample_id = GSM436255
+!Platform_sample_id = GSM436256
+!Platform_sample_id = GSM436257
+!Platform_sample_id = GSM436258
+!Platform_sample_id = GSM436259
+!Platform_sample_id = GSM476577
+!Platform_sample_id = GSM476578
+!Platform_sample_id = GSM476579
+!Platform_sample_id = GSM476580
+!Platform_sample_id = GSM476581
+!Platform_sample_id = GSM476583
+!Platform_sample_id = GSM476584
+!Platform_sample_id = GSM476585
+!Platform_sample_id = GSM476586
+!Platform_sample_id = GSM476587
+!Platform_sample_id = GSM476588
+!Platform_sample_id = GSM476589
+!Platform_sample_id = GSM476590
+!Platform_sample_id = GSM476591
+!Platform_sample_id = GSM480464
+!Platform_sample_id = GSM480465
+!Platform_sample_id = GSM480466
+!Platform_sample_id = GSM480467
+!Platform_sample_id = GSM480468
+!Platform_sample_id = GSM480469
+!Platform_sample_id = GSM480470
+!Platform_sample_id = GSM480471
+!Platform_sample_id = GSM480472
+!Platform_sample_id = GSM480473
+!Platform_sample_id = GSM480474
+!Platform_sample_id = GSM480475
+!Platform_sample_id = GSM486436
+!Platform_sample_id = GSM486437
+!Platform_sample_id = GSM486438
+!Platform_sample_id = GSM486439
+!Platform_sample_id = GSM486440
+!Platform_sample_id = GSM486441
+!Platform_sample_id = GSM486442
+!Platform_sample_id = GSM486443
+!Platform_sample_id = GSM486444
+!Platform_sample_id = GSM487073
+!Platform_sample_id = GSM487074
+!Platform_sample_id = GSM487075
+!Platform_sample_id = GSM487076
+!Platform_sample_id = GSM487077
+!Platform_sample_id = GSM487078
+!Platform_sample_id = GSM487079
+!Platform_sample_id = GSM487080
+!Platform_sample_id = GSM487081
+!Platform_sample_id = GSM487082
+!Platform_sample_id = GSM487083
+!Platform_sample_id = GSM487084
+!Platform_sample_id = GSM487085
+!Platform_sample_id = GSM487086
+!Platform_sample_id = GSM487087
+!Platform_sample_id = GSM487088
+!Platform_sample_id = GSM487089
+!Platform_sample_id = GSM487090
+!Platform_sample_id = GSM487091
+!Platform_sample_id = GSM487092
+!Platform_sample_id = GSM487093
+!Platform_sample_id = GSM487094
+!Platform_sample_id = GSM487095
+!Platform_sample_id = GSM487096
+!Platform_sample_id = GSM487097
+!Platform_sample_id = GSM487098
+!Platform_sample_id = GSM487099
+!Platform_sample_id = GSM487100
+!Platform_sample_id = GSM487101
+!Platform_sample_id = GSM487102
+!Platform_sample_id = GSM487103
+!Platform_sample_id = GSM487104
+!Platform_sample_id = GSM487105
+!Platform_sample_id = GSM487106
+!Platform_sample_id = GSM487107
+!Platform_sample_id = GSM487108
+!Platform_sample_id = GSM487109
+!Platform_sample_id = GSM487110
+!Platform_sample_id = GSM487111
+!Platform_sample_id = GSM487112
+!Platform_sample_id = GSM487113
+!Platform_sample_id = GSM487114
+!Platform_sample_id = GSM487115
+!Platform_sample_id = GSM487116
+!Platform_sample_id = GSM487117
+!Platform_sample_id = GSM487118
+!Platform_sample_id = GSM487119
+!Platform_sample_id = GSM487120
+!Platform_sample_id = GSM487121
+!Platform_sample_id = GSM487122
+!Platform_sample_id = GSM487123
+!Platform_sample_id = GSM487124
+!Platform_sample_id = GSM487125
+!Platform_sample_id = GSM487126
+!Platform_sample_id = GSM487127
+!Platform_sample_id = GSM487128
+!Platform_sample_id = GSM487129
+!Platform_sample_id = GSM487130
+!Platform_sample_id = GSM487131
+!Platform_sample_id = GSM487132
+!Platform_sample_id = GSM487133
+!Platform_sample_id = GSM487134
+!Platform_sample_id = GSM487135
+!Platform_sample_id = GSM487136
+!Platform_sample_id = GSM487137
+!Platform_sample_id = GSM487138
+!Platform_sample_id = GSM487139
+!Platform_sample_id = GSM487140
+!Platform_sample_id = GSM487141
+!Platform_sample_id = GSM487142
+!Platform_sample_id = GSM487143
+!Platform_sample_id = GSM487144
+!Platform_sample_id = GSM487145
+!Platform_sample_id = GSM487146
+!Platform_sample_id = GSM487147
+!Platform_sample_id = GSM487148
+!Platform_sample_id = GSM487149
+!Platform_sample_id = GSM487150
+!Platform_sample_id = GSM487151
+!Platform_sample_id = GSM487152
+!Platform_sample_id = GSM487153
+!Platform_sample_id = GSM487154
+!Platform_sample_id = GSM487155
+!Platform_sample_id = GSM487156
+!Platform_sample_id = GSM487157
+!Platform_sample_id = GSM487158
+!Platform_sample_id = GSM487159
+!Platform_sample_id = GSM487160
+!Platform_sample_id = GSM487161
+!Platform_sample_id = GSM487162
+!Platform_sample_id = GSM487163
+!Platform_sample_id = GSM487164
+!Platform_sample_id = GSM487165
+!Platform_sample_id = GSM487166
+!Platform_sample_id = GSM487167
+!Platform_sample_id = GSM487168
+!Platform_sample_id = GSM487169
+!Platform_sample_id = GSM487170
+!Platform_sample_id = GSM487171
+!Platform_sample_id = GSM487172
+!Platform_sample_id = GSM487173
+!Platform_sample_id = GSM495879
+!Platform_sample_id = GSM495880
+!Platform_sample_id = GSM495881
+!Platform_sample_id = GSM495882
+!Platform_sample_id = GSM495883
+!Platform_sample_id = GSM495884
+!Platform_sample_id = GSM495885
+!Platform_sample_id = GSM495886
+!Platform_sample_id = GSM495887
+!Platform_sample_id = GSM495888
+!Platform_sample_id = GSM495889
+!Platform_sample_id = GSM495890
+!Platform_sample_id = GSM495891
+!Platform_sample_id = GSM495892
+!Platform_sample_id = GSM495893
+!Platform_sample_id = GSM495894
+!Platform_sample_id = GSM495895
+!Platform_sample_id = GSM495896
+!Platform_sample_id = GSM495897
+!Platform_sample_id = GSM495898
+!Platform_sample_id = GSM495899
+!Platform_sample_id = GSM495900
+!Platform_sample_id = GSM495901
+!Platform_sample_id = GSM495902
+!Platform_sample_id = GSM495903
+!Platform_sample_id = GSM495904
+!Platform_sample_id = GSM495905
+!Platform_sample_id = GSM495906
+!Platform_sample_id = GSM495907
+!Platform_sample_id = GSM495908
+!Platform_sample_id = GSM501778
+!Platform_sample_id = GSM501779
+!Platform_sample_id = GSM501780
+!Platform_sample_id = GSM501781
+!Platform_sample_id = GSM501782
+!Platform_sample_id = GSM501783
+!Platform_sample_id = GSM501784
+!Platform_sample_id = GSM501785
+!Platform_sample_id = GSM501786
+!Platform_sample_id = GSM501787
+!Platform_sample_id = GSM501788
+!Platform_sample_id = GSM502089
+!Platform_sample_id = GSM502090
+!Platform_sample_id = GSM502091
+!Platform_sample_id = GSM502092
+!Platform_sample_id = GSM502114
+!Platform_sample_id = GSM502115
+!Platform_sample_id = GSM502122
+!Platform_sample_id = GSM502123
+!Platform_sample_id = GSM502332
+!Platform_sample_id = GSM502348
+!Platform_sample_id = GSM502349
+!Platform_sample_id = GSM502350
+!Platform_sample_id = GSM502369
+!Platform_sample_id = GSM502370
+!Platform_sample_id = GSM502387
+!Platform_sample_id = GSM502388
+!Platform_sample_id = GSM502389
+!Platform_sample_id = GSM502390
+!Platform_sample_id = GSM502981
+!Platform_sample_id = GSM502982
+!Platform_sample_id = GSM502983
+!Platform_sample_id = GSM502984
+!Platform_sample_id = GSM502985
+!Platform_sample_id = GSM502986
+!Platform_sample_id = GSM502987
+!Platform_sample_id = GSM502988
+!Platform_sample_id = GSM502989
+!Platform_sample_id = GSM502990
+!Platform_sample_id = GSM502991
+!Platform_sample_id = GSM502992
+!Platform_sample_id = GSM502993
+!Platform_sample_id = GSM502994
+!Platform_sample_id = GSM502995
+!Platform_sample_id = GSM502996
+!Platform_sample_id = GSM502997
+!Platform_sample_id = GSM502998
+!Platform_sample_id = GSM502999
+!Platform_sample_id = GSM503000
+!Platform_sample_id = GSM503001
+!Platform_sample_id = GSM503002
+!Platform_sample_id = GSM503003
+!Platform_sample_id = GSM503004
+!Platform_sample_id = GSM503005
+!Platform_sample_id = GSM503006
+!Platform_sample_id = GSM503007
+!Platform_sample_id = GSM503008
+!Platform_sample_id = GSM503009
+!Platform_sample_id = GSM503010
+!Platform_sample_id = GSM503011
+!Platform_sample_id = GSM503012
+!Platform_sample_id = GSM503013
+!Platform_sample_id = GSM503014
+!Platform_sample_id = GSM503015
+!Platform_sample_id = GSM503016
+!Platform_sample_id = GSM503017
+!Platform_sample_id = GSM503018
+!Platform_sample_id = GSM503019
+!Platform_sample_id = GSM503020
+!Platform_sample_id = GSM503021
+!Platform_sample_id = GSM503022
+!Platform_sample_id = GSM503024
+!Platform_sample_id = GSM503025
+!Platform_sample_id = GSM503026
+!Platform_sample_id = GSM503027
+!Platform_sample_id = GSM503028
+!Platform_sample_id = GSM503029
+!Platform_sample_id = GSM503031
+!Platform_sample_id = GSM503033
+!Platform_sample_id = GSM503034
+!Platform_sample_id = GSM503035
+!Platform_sample_id = GSM503036
+!Platform_sample_id = GSM503038
+!Platform_sample_id = GSM526419
+!Platform_sample_id = GSM526420
+!Platform_sample_id = GSM526421
+!Platform_sample_id = GSM526422
+!Platform_sample_id = GSM526423
+!Platform_sample_id = GSM526424
+!Platform_sample_id = GSM526425
+!Platform_sample_id = GSM526426
+!Platform_sample_id = GSM526427
+!Platform_sample_id = GSM526428
+!Platform_sample_id = GSM526429
+!Platform_sample_id = GSM526430
+!Platform_sample_id = GSM526431
+!Platform_sample_id = GSM526432
+!Platform_sample_id = GSM526433
+!Platform_sample_id = GSM526434
+!Platform_sample_id = GSM526435
+!Platform_sample_id = GSM526436
+!Platform_sample_id = GSM526437
+!Platform_sample_id = GSM526438
+!Platform_sample_id = GSM526439
+!Platform_sample_id = GSM526440
+!Platform_sample_id = GSM526441
+!Platform_sample_id = GSM526442
+!Platform_sample_id = GSM526443
+!Platform_sample_id = GSM526444
+!Platform_sample_id = GSM526445
+!Platform_sample_id = GSM526446
+!Platform_sample_id = GSM526447
+!Platform_sample_id = GSM526448
+!Platform_sample_id = GSM526449
+!Platform_sample_id = GSM526450
+!Platform_sample_id = GSM526451
+!Platform_sample_id = GSM526452
+!Platform_sample_id = GSM526453
+!Platform_sample_id = GSM526454
+!Platform_sample_id = GSM526455
+!Platform_sample_id = GSM526456
+!Platform_sample_id = GSM526457
+!Platform_sample_id = GSM526458
+!Platform_sample_id = GSM526459
+!Platform_sample_id = GSM526460
+!Platform_sample_id = GSM526461
+!Platform_sample_id = GSM526462
+!Platform_sample_id = GSM526463
+!Platform_sample_id = GSM526464
+!Platform_sample_id = GSM526465
+!Platform_sample_id = GSM526466
+!Platform_sample_id = GSM526467
+!Platform_sample_id = GSM526468
+!Platform_sample_id = GSM526469
+!Platform_sample_id = GSM526470
+!Platform_sample_id = GSM526471
+!Platform_sample_id = GSM526472
+!Platform_sample_id = GSM526473
+!Platform_sample_id = GSM526474
+!Platform_sample_id = GSM526475
+!Platform_sample_id = GSM526476
+!Platform_sample_id = GSM526477
+!Platform_sample_id = GSM526478
+!Platform_sample_id = GSM526479
+!Platform_sample_id = GSM526480
+!Platform_sample_id = GSM526481
+!Platform_sample_id = GSM526482
+!Platform_sample_id = GSM526483
+!Platform_sample_id = GSM526484
+!Platform_sample_id = GSM526485
+!Platform_sample_id = GSM526486
+!Platform_sample_id = GSM526487
+!Platform_sample_id = GSM526488
+!Platform_sample_id = GSM526489
+!Platform_sample_id = GSM526490
+!Platform_sample_id = GSM526491
+!Platform_sample_id = GSM526492
+!Platform_sample_id = GSM526493
+!Platform_sample_id = GSM526494
+!Platform_sample_id = GSM526495
+!Platform_sample_id = GSM526496
+!Platform_sample_id = GSM526497
+!Platform_sample_id = GSM526498
+!Platform_sample_id = GSM526499
+!Platform_sample_id = GSM526500
+!Platform_sample_id = GSM526501
+!Platform_sample_id = GSM526502
+!Platform_sample_id = GSM526503
+!Platform_sample_id = GSM526504
+!Platform_sample_id = GSM526505
+!Platform_sample_id = GSM526506
+!Platform_sample_id = GSM526507
+!Platform_sample_id = GSM526508
+!Platform_sample_id = GSM526509
+!Platform_sample_id = GSM526510
+!Platform_sample_id = GSM526511
+!Platform_sample_id = GSM526512
+!Platform_sample_id = GSM526513
+!Platform_sample_id = GSM526514
+!Platform_sample_id = GSM526515
+!Platform_sample_id = GSM526516
+!Platform_sample_id = GSM526517
+!Platform_sample_id = GSM526518
+!Platform_sample_id = GSM526519
+!Platform_sample_id = GSM526520
+!Platform_sample_id = GSM526521
+!Platform_sample_id = GSM526522
+!Platform_sample_id = GSM526523
+!Platform_sample_id = GSM526524
+!Platform_sample_id = GSM526525
+!Platform_sample_id = GSM526526
+!Platform_sample_id = GSM526527
+!Platform_sample_id = GSM526528
+!Platform_sample_id = GSM526529
+!Platform_sample_id = GSM526530
+!Platform_sample_id = GSM526531
+!Platform_sample_id = GSM526532
+!Platform_sample_id = GSM526533
+!Platform_sample_id = GSM526534
+!Platform_sample_id = GSM526535
+!Platform_sample_id = GSM526536
+!Platform_sample_id = GSM526537
+!Platform_sample_id = GSM526538
+!Platform_sample_id = GSM526539
+!Platform_sample_id = GSM526540
+!Platform_sample_id = GSM526541
+!Platform_sample_id = GSM526542
+!Platform_sample_id = GSM526543
+!Platform_sample_id = GSM526544
+!Platform_sample_id = GSM526545
+!Platform_sample_id = GSM526546
+!Platform_sample_id = GSM526547
+!Platform_sample_id = GSM526548
+!Platform_sample_id = GSM526549
+!Platform_sample_id = GSM526550
+!Platform_sample_id = GSM526551
+!Platform_sample_id = GSM526552
+!Platform_sample_id = GSM526553
+!Platform_sample_id = GSM526554
+!Platform_sample_id = GSM526555
+!Platform_sample_id = GSM526556
+!Platform_sample_id = GSM526557
+!Platform_sample_id = GSM526558
+!Platform_sample_id = GSM526559
+!Platform_sample_id = GSM526560
+!Platform_sample_id = GSM541536
+!Platform_sample_id = GSM541537
+!Platform_sample_id = GSM541538
+!Platform_sample_id = GSM541539
+!Platform_sample_id = GSM541540
+!Platform_sample_id = GSM541541
+!Platform_sample_id = GSM541542
+!Platform_sample_id = GSM541543
+!Platform_sample_id = GSM541544
+!Platform_sample_id = GSM541545
+!Platform_sample_id = GSM541546
+!Platform_sample_id = GSM541547
+!Platform_sample_id = GSM541548
+!Platform_sample_id = GSM541549
+!Platform_sample_id = GSM541550
+!Platform_sample_id = GSM541551
+!Platform_sample_id = GSM541552
+!Platform_sample_id = GSM541553
+!Platform_sample_id = GSM541554
+!Platform_sample_id = GSM541555
+!Platform_sample_id = GSM541556
+!Platform_sample_id = GSM541557
+!Platform_sample_id = GSM541558
+!Platform_sample_id = GSM541559
+!Platform_sample_id = GSM541560
+!Platform_sample_id = GSM541561
+!Platform_sample_id = GSM541562
+!Platform_sample_id = GSM541563
+!Platform_sample_id = GSM541564
+!Platform_sample_id = GSM541565
+!Platform_sample_id = GSM541566
+!Platform_sample_id = GSM541567
+!Platform_sample_id = GSM541568
+!Platform_sample_id = GSM541569
+!Platform_sample_id = GSM541570
+!Platform_sample_id = GSM541571
+!Platform_sample_id = GSM541573
+!Platform_sample_id = GSM541574
+!Platform_sample_id = GSM541575
+!Platform_sample_id = GSM541576
+!Platform_sample_id = GSM541577
+!Platform_sample_id = GSM541578
+!Platform_sample_id = GSM541579
+!Platform_sample_id = GSM541580
+!Platform_sample_id = GSM541581
+!Platform_sample_id = GSM541582
+!Platform_sample_id = GSM541583
+!Platform_sample_id = GSM541584
+!Platform_sample_id = GSM541585
+!Platform_sample_id = GSM541586
+!Platform_sample_id = GSM541587
+!Platform_sample_id = GSM541588
+!Platform_sample_id = GSM541589
+!Platform_sample_id = GSM541590
+!Platform_sample_id = GSM541591
+!Platform_sample_id = GSM541592
+!Platform_sample_id = GSM541593
+!Platform_sample_id = GSM541594
+!Platform_sample_id = GSM541595
+!Platform_sample_id = GSM541596
+!Platform_sample_id = GSM541597
+!Platform_sample_id = GSM541598
+!Platform_sample_id = GSM541599
+!Platform_sample_id = GSM541600
+!Platform_sample_id = GSM550719
+!Platform_sample_id = GSM550720
+!Platform_sample_id = GSM550721
+!Platform_sample_id = GSM550722
+!Platform_sample_id = GSM550723
+!Platform_sample_id = GSM550724
+!Platform_sample_id = GSM550725
+!Platform_sample_id = GSM550726
+!Platform_sample_id = GSM550727
+!Platform_sample_id = GSM550728
+!Platform_sample_id = GSM550729
+!Platform_sample_id = GSM550730
+!Platform_sample_id = GSM587874
+!Platform_sample_id = GSM587875
+!Platform_sample_id = GSM587881
+!Platform_sample_id = GSM587882
+!Platform_sample_id = GSM587883
+!Platform_sample_id = GSM587884
+!Platform_sample_id = GSM587885
+!Platform_sample_id = GSM587886
+!Platform_sample_id = GSM587887
+!Platform_sample_id = GSM587888
+!Platform_sample_id = GSM588392
+!Platform_sample_id = GSM588394
+!Platform_sample_id = GSM588396
+!Platform_sample_id = GSM588398
+!Platform_sample_id = GSM588399
+!Platform_sample_id = GSM588400
+!Platform_sample_id = GSM588401
+!Platform_sample_id = GSM588402
+!Platform_sample_id = GSM588403
+!Platform_sample_id = GSM588404
+!Platform_sample_id = GSM588405
+!Platform_sample_id = GSM588406
+!Platform_sample_id = GSM588408
+!Platform_sample_id = GSM588410
+!Platform_sample_id = GSM588411
+!Platform_sample_id = GSM588414
+!Platform_sample_id = GSM588416
+!Platform_sample_id = GSM588417
+!Platform_sample_id = GSM588419
+!Platform_sample_id = GSM588421
+!Platform_sample_id = GSM588423
+!Platform_sample_id = GSM588424
+!Platform_sample_id = GSM588426
+!Platform_sample_id = GSM588427
+!Platform_sample_id = GSM588429
+!Platform_sample_id = GSM588431
+!Platform_sample_id = GSM588432
+!Platform_sample_id = GSM588433
+!Platform_sample_id = GSM588434
+!Platform_sample_id = GSM588435
+!Platform_sample_id = GSM588436
+!Platform_sample_id = GSM588437
+!Platform_sample_id = GSM588438
+!Platform_sample_id = GSM588439
+!Platform_sample_id = GSM588440
+!Platform_sample_id = GSM588441
+!Platform_sample_id = GSM588442
+!Platform_sample_id = GSM588443
+!Platform_sample_id = GSM588444
+!Platform_sample_id = GSM588949
+!Platform_sample_id = GSM588950
+!Platform_sample_id = GSM588951
+!Platform_sample_id = GSM588952
+!Platform_sample_id = GSM588953
+!Platform_sample_id = GSM588954
+!Platform_sample_id = GSM588955
+!Platform_sample_id = GSM588956
+!Platform_sample_id = GSM588957
+!Platform_sample_id = GSM588958
+!Platform_sample_id = GSM588959
+!Platform_sample_id = GSM588960
+!Platform_sample_id = GSM588961
+!Platform_sample_id = GSM588962
+!Platform_sample_id = GSM588963
+!Platform_sample_id = GSM588964
+!Platform_sample_id = GSM588965
+!Platform_sample_id = GSM588966
+!Platform_sample_id = GSM588967
+!Platform_sample_id = GSM588968
+!Platform_sample_id = GSM588969
+!Platform_sample_id = GSM588970
+!Platform_sample_id = GSM588971
+!Platform_sample_id = GSM588972
+!Platform_sample_id = GSM588973
+!Platform_sample_id = GSM588974
+!Platform_sample_id = GSM588975
+!Platform_sample_id = GSM588976
+!Platform_sample_id = GSM591391
+!Platform_sample_id = GSM591392
+!Platform_sample_id = GSM591393
+!Platform_sample_id = GSM591394
+!Platform_sample_id = GSM591395
+!Platform_sample_id = GSM591396
+!Platform_sample_id = GSM591397
+!Platform_sample_id = GSM591398
+!Platform_sample_id = GSM591399
+!Platform_sample_id = GSM591400
+!Platform_sample_id = GSM591401
+!Platform_sample_id = GSM591402
+!Platform_sample_id = GSM591403
+!Platform_sample_id = GSM591404
+!Platform_sample_id = GSM591405
+!Platform_sample_id = GSM591406
+!Platform_sample_id = GSM591407
+!Platform_sample_id = GSM591408
+!Platform_sample_id = GSM591409
+!Platform_sample_id = GSM591410
+!Platform_sample_id = GSM591411
+!Platform_sample_id = GSM591412
+!Platform_sample_id = GSM603021
+!Platform_sample_id = GSM603022
+!Platform_sample_id = GSM603023
+!Platform_sample_id = GSM603024
+!Platform_sample_id = GSM603025
+!Platform_sample_id = GSM603026
+!Platform_sample_id = GSM603027
+!Platform_sample_id = GSM603028
+!Platform_sample_id = GSM603029
+!Platform_sample_id = GSM603030
+!Platform_sample_id = GSM603031
+!Platform_sample_id = GSM603032
+!Platform_sample_id = GSM603033
+!Platform_sample_id = GSM603034
+!Platform_sample_id = GSM603035
+!Platform_sample_id = GSM603036
+!Platform_sample_id = GSM603037
+!Platform_sample_id = GSM603038
+!Platform_sample_id = GSM603039
+!Platform_sample_id = GSM603040
+!Platform_sample_id = GSM603041
+!Platform_sample_id = GSM603042
+!Platform_sample_id = GSM605087
+!Platform_sample_id = GSM605088
+!Platform_sample_id = GSM605089
+!Platform_sample_id = GSM605090
+!Platform_sample_id = GSM605091
+!Platform_sample_id = GSM605092
+!Platform_sample_id = GSM605113
+!Platform_sample_id = GSM642305
+!Platform_sample_id = GSM642306
+!Platform_sample_id = GSM642307
+!Platform_sample_id = GSM642308
+!Platform_sample_id = GSM642309
+!Platform_sample_id = GSM642310
+!Platform_sample_id = GSM642311
+!Platform_sample_id = GSM642312
+!Platform_sample_id = GSM642313
+!Platform_sample_id = GSM642314
+!Platform_sample_id = GSM642315
+!Platform_sample_id = GSM642316
+!Platform_sample_id = GSM642317
+!Platform_sample_id = GSM642318
+!Platform_sample_id = GSM642319
+!Platform_sample_id = GSM642320
+!Platform_sample_id = GSM642321
+!Platform_sample_id = GSM642322
+!Platform_sample_id = GSM642323
+!Platform_sample_id = GSM642324
+!Platform_sample_id = GSM642325
+!Platform_sample_id = GSM642326
+!Platform_sample_id = GSM642327
+!Platform_sample_id = GSM642328
+!Platform_sample_id = GSM656276
+!Platform_sample_id = GSM656277
+!Platform_sample_id = GSM656278
+!Platform_sample_id = GSM656279
+!Platform_sample_id = GSM656280
+!Platform_sample_id = GSM656281
+!Platform_sample_id = GSM656282
+!Platform_sample_id = GSM656283
+!Platform_sample_id = GSM656284
+!Platform_sample_id = GSM656285
+!Platform_sample_id = GSM656326
+!Platform_sample_id = GSM656327
+!Platform_sample_id = GSM656328
+!Platform_sample_id = GSM656329
+!Platform_sample_id = GSM656330
+!Platform_sample_id = GSM656331
+!Platform_sample_id = GSM656332
+!Platform_sample_id = GSM671354
+!Platform_sample_id = GSM671355
+!Platform_sample_id = GSM671356
+!Platform_sample_id = GSM671357
+!Platform_sample_id = GSM671358
+!Platform_sample_id = GSM671359
+!Platform_sample_id = GSM671360
+!Platform_sample_id = GSM671361
+!Platform_sample_id = GSM671362
+!Platform_sample_id = GSM671363
+!Platform_sample_id = GSM671364
+!Platform_sample_id = GSM678128
+!Platform_sample_id = GSM678129
+!Platform_sample_id = GSM678130
+!Platform_sample_id = GSM678131
+!Platform_sample_id = GSM678132
+!Platform_sample_id = GSM678133
+!Platform_sample_id = GSM678134
+!Platform_sample_id = GSM678135
+!Platform_sample_id = GSM678136
+!Platform_sample_id = GSM678137
+!Platform_sample_id = GSM678138
+!Platform_sample_id = GSM678139
+!Platform_sample_id = GSM678140
+!Platform_sample_id = GSM678141
+!Platform_sample_id = GSM678142
+!Platform_sample_id = GSM678143
+!Platform_sample_id = GSM678144
+!Platform_sample_id = GSM678145
+!Platform_sample_id = GSM678146
+!Platform_sample_id = GSM678147
+!Platform_sample_id = GSM678148
+!Platform_sample_id = GSM678149
+!Platform_sample_id = GSM678150
+!Platform_sample_id = GSM678151
+!Platform_sample_id = GSM678152
+!Platform_sample_id = GSM681979
+!Platform_sample_id = GSM692615
+!Platform_sample_id = GSM692616
+!Platform_sample_id = GSM692617
+!Platform_sample_id = GSM692618
+!Platform_sample_id = GSM692619
+!Platform_sample_id = GSM692620
+!Platform_sample_id = GSM692621
+!Platform_sample_id = GSM692622
+!Platform_sample_id = GSM692623
+!Platform_sample_id = GSM692624
+!Platform_sample_id = GSM692625
+!Platform_sample_id = GSM692626
+!Platform_sample_id = GSM692627
+!Platform_sample_id = GSM692628
+!Platform_sample_id = GSM692629
+!Platform_sample_id = GSM692630
+!Platform_sample_id = GSM702467
+!Platform_sample_id = GSM702468
+!Platform_sample_id = GSM702469
+!Platform_sample_id = GSM702470
+!Platform_sample_id = GSM702471
+!Platform_sample_id = GSM702472
+!Platform_sample_id = GSM702473
+!Platform_sample_id = GSM702474
+!Platform_sample_id = GSM702475
+!Platform_sample_id = GSM702476
+!Platform_sample_id = GSM702477
+!Platform_sample_id = GSM702478
+!Platform_sample_id = GSM702479
+!Platform_sample_id = GSM702480
+!Platform_sample_id = GSM702481
+!Platform_sample_id = GSM702482
+!Platform_sample_id = GSM702483
+!Platform_sample_id = GSM702484
+!Platform_sample_id = GSM702485
+!Platform_sample_id = GSM702486
+!Platform_sample_id = GSM702487
+!Platform_sample_id = GSM702488
+!Platform_sample_id = GSM702489
+!Platform_sample_id = GSM706688
+!Platform_sample_id = GSM706690
+!Platform_sample_id = GSM706691
+!Platform_sample_id = GSM706693
+!Platform_sample_id = GSM706694
+!Platform_sample_id = GSM706695
+!Platform_sample_id = GSM712217
+!Platform_sample_id = GSM712219
+!Platform_sample_id = GSM712220
+!Platform_sample_id = GSM712222
+!Platform_sample_id = GSM712223
+!Platform_sample_id = GSM712225
+!Platform_sample_id = GSM712227
+!Platform_sample_id = GSM712229
+!Platform_sample_id = GSM712230
+!Platform_sample_id = GSM712232
+!Platform_sample_id = GSM712233
+!Platform_sample_id = GSM712235
+!Platform_sample_id = GSM712236
+!Platform_sample_id = GSM712239
+!Platform_sample_id = GSM712240
+!Platform_sample_id = GSM712242
+!Platform_sample_id = GSM712244
+!Platform_sample_id = GSM712246
+!Platform_sample_id = GSM712247
+!Platform_sample_id = GSM712249
+!Platform_sample_id = GSM712250
+!Platform_sample_id = GSM712252
+!Platform_sample_id = GSM712254
+!Platform_sample_id = GSM712256
+!Platform_sample_id = GSM717425
+!Platform_sample_id = GSM717426
+!Platform_sample_id = GSM717427
+!Platform_sample_id = GSM717428
+!Platform_sample_id = GSM717429
+!Platform_sample_id = GSM717430
+!Platform_sample_id = GSM731467
+!Platform_sample_id = GSM731468
+!Platform_sample_id = GSM731469
+!Platform_sample_id = GSM731470
+!Platform_sample_id = GSM731471
+!Platform_sample_id = GSM731472
+!Platform_sample_id = GSM731474
+!Platform_sample_id = GSM731475
+!Platform_sample_id = GSM731477
+!Platform_sample_id = GSM731478
+!Platform_sample_id = GSM731479
+!Platform_sample_id = GSM731480
+!Platform_sample_id = GSM731482
+!Platform_sample_id = GSM731483
+!Platform_sample_id = GSM731487
+!Platform_sample_id = GSM731488
+!Platform_sample_id = GSM731490
+!Platform_sample_id = GSM731492
+!Platform_sample_id = GSM731493
+!Platform_sample_id = GSM731495
+!Platform_sample_id = GSM731496
+!Platform_sample_id = GSM731498
+!Platform_sample_id = GSM737370
+!Platform_sample_id = GSM737371
+!Platform_sample_id = GSM737372
+!Platform_sample_id = GSM737373
+!Platform_sample_id = GSM737374
+!Platform_sample_id = GSM737375
+!Platform_sample_id = GSM737376
+!Platform_sample_id = GSM737377
+!Platform_sample_id = GSM737378
+!Platform_sample_id = GSM737379
+!Platform_sample_id = GSM737380
+!Platform_sample_id = GSM737381
+!Platform_sample_id = GSM737382
+!Platform_sample_id = GSM737383
+!Platform_sample_id = GSM737384
+!Platform_sample_id = GSM737385
+!Platform_sample_id = GSM737386
+!Platform_sample_id = GSM737387
+!Platform_sample_id = GSM737388
+!Platform_sample_id = GSM737389
+!Platform_sample_id = GSM737390
+!Platform_sample_id = GSM737391
+!Platform_sample_id = GSM737392
+!Platform_sample_id = GSM737393
+!Platform_sample_id = GSM737394
+!Platform_sample_id = GSM737395
+!Platform_sample_id = GSM737396
+!Platform_sample_id = GSM737397
+!Platform_sample_id = GSM737398
+!Platform_sample_id = GSM737399
+!Platform_sample_id = GSM737400
+!Platform_sample_id = GSM737401
+!Platform_sample_id = GSM737402
+!Platform_sample_id = GSM737403
+!Platform_sample_id = GSM737404
+!Platform_sample_id = GSM737405
+!Platform_sample_id = GSM737406
+!Platform_sample_id = GSM737407
+!Platform_sample_id = GSM737408
+!Platform_sample_id = GSM737409
+!Platform_sample_id = GSM737410
+!Platform_sample_id = GSM737411
+!Platform_sample_id = GSM737412
+!Platform_sample_id = GSM737413
+!Platform_sample_id = GSM737414
+!Platform_sample_id = GSM737415
+!Platform_sample_id = GSM737416
+!Platform_sample_id = GSM737417
+!Platform_sample_id = GSM737418
+!Platform_sample_id = GSM737419
+!Platform_sample_id = GSM737420
+!Platform_sample_id = GSM737421
+!Platform_sample_id = GSM737422
+!Platform_sample_id = GSM737423
+!Platform_sample_id = GSM766161
+!Platform_sample_id = GSM766162
+!Platform_sample_id = GSM766163
+!Platform_sample_id = GSM766164
+!Platform_sample_id = GSM766165
+!Platform_sample_id = GSM766166
+!Platform_sample_id = GSM766167
+!Platform_sample_id = GSM766168
+!Platform_sample_id = GSM778120
+!Platform_sample_id = GSM778121
+!Platform_sample_id = GSM778122
+!Platform_sample_id = GSM778123
+!Platform_sample_id = GSM778124
+!Platform_sample_id = GSM778125
+!Platform_sample_id = GSM778126
+!Platform_sample_id = GSM778127
+!Platform_sample_id = GSM778128
+!Platform_sample_id = GSM778129
+!Platform_sample_id = GSM778130
+!Platform_sample_id = GSM778131
+!Platform_sample_id = GSM778132
+!Platform_sample_id = GSM778133
+!Platform_sample_id = GSM778134
+!Platform_sample_id = GSM778135
+!Platform_sample_id = GSM778136
+!Platform_sample_id = GSM778137
+!Platform_sample_id = GSM778138
+!Platform_sample_id = GSM778139
+!Platform_sample_id = GSM778140
+!Platform_sample_id = GSM778141
+!Platform_sample_id = GSM778142
+!Platform_sample_id = GSM778143
+!Platform_sample_id = GSM778144
+!Platform_sample_id = GSM778145
+!Platform_sample_id = GSM778146
+!Platform_sample_id = GSM778147
+!Platform_sample_id = GSM778148
+!Platform_sample_id = GSM778149
+!Platform_sample_id = GSM778150
+!Platform_sample_id = GSM778151
+!Platform_sample_id = GSM778152
+!Platform_sample_id = GSM778153
+!Platform_sample_id = GSM778154
+!Platform_sample_id = GSM778155
+!Platform_sample_id = GSM778156
+!Platform_sample_id = GSM778157
+!Platform_sample_id = GSM778158
+!Platform_sample_id = GSM778159
+!Platform_sample_id = GSM778160
+!Platform_sample_id = GSM778161
+!Platform_sample_id = GSM778162
+!Platform_sample_id = GSM778163
+!Platform_sample_id = GSM778164
+!Platform_sample_id = GSM778165
+!Platform_sample_id = GSM778166
+!Platform_sample_id = GSM778167
+!Platform_sample_id = GSM778168
+!Platform_sample_id = GSM778169
+!Platform_sample_id = GSM778170
+!Platform_sample_id = GSM778171
+!Platform_sample_id = GSM778172
+!Platform_sample_id = GSM778173
+!Platform_sample_id = GSM778174
+!Platform_sample_id = GSM778175
+!Platform_sample_id = GSM778176
+!Platform_sample_id = GSM778177
+!Platform_sample_id = GSM778178
+!Platform_sample_id = GSM778179
+!Platform_sample_id = GSM778180
+!Platform_sample_id = GSM778181
+!Platform_sample_id = GSM778182
+!Platform_sample_id = GSM778183
+!Platform_sample_id = GSM778184
+!Platform_sample_id = GSM778185
+!Platform_sample_id = GSM778186
+!Platform_sample_id = GSM778187
+!Platform_sample_id = GSM778188
+!Platform_sample_id = GSM778189
+!Platform_sample_id = GSM778190
+!Platform_sample_id = GSM778191
+!Platform_sample_id = GSM778192
+!Platform_sample_id = GSM778193
+!Platform_sample_id = GSM778194
+!Platform_sample_id = GSM778195
+!Platform_sample_id = GSM778196
+!Platform_sample_id = GSM778197
+!Platform_sample_id = GSM778199
+!Platform_sample_id = GSM778200
+!Platform_sample_id = GSM778201
+!Platform_sample_id = GSM778202
+!Platform_sample_id = GSM778203
+!Platform_sample_id = GSM778204
+!Platform_sample_id = GSM778205
+!Platform_sample_id = GSM778206
+!Platform_sample_id = GSM778207
+!Platform_sample_id = GSM778208
+!Platform_sample_id = GSM778209
+!Platform_sample_id = GSM778210
+!Platform_sample_id = GSM778211
+!Platform_sample_id = GSM778212
+!Platform_sample_id = GSM778213
+!Platform_sample_id = GSM778214
+!Platform_sample_id = GSM778215
+!Platform_sample_id = GSM778216
+!Platform_sample_id = GSM778217
+!Platform_sample_id = GSM778218
+!Platform_sample_id = GSM778219
+!Platform_sample_id = GSM778220
+!Platform_sample_id = GSM778221
+!Platform_sample_id = GSM778222
+!Platform_sample_id = GSM778223
+!Platform_sample_id = GSM778224
+!Platform_sample_id = GSM778225
+!Platform_sample_id = GSM778226
+!Platform_sample_id = GSM778227
+!Platform_sample_id = GSM778228
+!Platform_sample_id = GSM778229
+!Platform_sample_id = GSM778230
+!Platform_sample_id = GSM778231
+!Platform_sample_id = GSM778232
+!Platform_sample_id = GSM778233
+!Platform_sample_id = GSM778234
+!Platform_sample_id = GSM778235
+!Platform_sample_id = GSM778236
+!Platform_sample_id = GSM778237
+!Platform_sample_id = GSM778238
+!Platform_sample_id = GSM778239
+!Platform_sample_id = GSM778240
+!Platform_sample_id = GSM778241
+!Platform_sample_id = GSM778242
+!Platform_sample_id = GSM778243
+!Platform_sample_id = GSM778244
+!Platform_sample_id = GSM778245
+!Platform_sample_id = GSM778246
+!Platform_sample_id = GSM778247
+!Platform_sample_id = GSM778248
+!Platform_sample_id = GSM778249
+!Platform_sample_id = GSM778250
+!Platform_sample_id = GSM778251
+!Platform_sample_id = GSM778252
+!Platform_sample_id = GSM778253
+!Platform_sample_id = GSM778254
+!Platform_sample_id = GSM789294
+!Platform_sample_id = GSM789295
+!Platform_sample_id = GSM789296
+!Platform_sample_id = GSM789297
+!Platform_sample_id = GSM789298
+!Platform_sample_id = GSM789299
+!Platform_sample_id = GSM789300
+!Platform_sample_id = GSM789301
+!Platform_sample_id = GSM789302
+!Platform_sample_id = GSM789303
+!Platform_sample_id = GSM789304
+!Platform_sample_id = GSM789305
+!Platform_sample_id = GSM789306
+!Platform_sample_id = GSM789307
+!Platform_sample_id = GSM789308
+!Platform_sample_id = GSM789309
+!Platform_sample_id = GSM789310
+!Platform_sample_id = GSM789311
+!Platform_sample_id = GSM789312
+!Platform_sample_id = GSM789313
+!Platform_sample_id = GSM789314
+!Platform_sample_id = GSM789315
+!Platform_sample_id = GSM789316
+!Platform_sample_id = GSM789317
+!Platform_sample_id = GSM790987
+!Platform_sample_id = GSM790988
+!Platform_sample_id = GSM794252
+!Platform_sample_id = GSM794253
+!Platform_sample_id = GSM794254
+!Platform_sample_id = GSM794255
+!Platform_sample_id = GSM794256
+!Platform_sample_id = GSM794257
+!Platform_sample_id = GSM794258
+!Platform_sample_id = GSM794259
+!Platform_sample_id = GSM859700
+!Platform_sample_id = GSM859701
+!Platform_sample_id = GSM859702
+!Platform_sample_id = GSM859703
+!Platform_sample_id = GSM859704
+!Platform_sample_id = GSM859705
+!Platform_sample_id = GSM859706
+!Platform_sample_id = GSM859707
+!Platform_sample_id = GSM859708
+!Platform_sample_id = GSM859709
+!Platform_sample_id = GSM859710
+!Platform_sample_id = GSM859711
+!Platform_sample_id = GSM871522
+!Platform_sample_id = GSM871523
+!Platform_sample_id = GSM871524
+!Platform_sample_id = GSM871525
+!Platform_sample_id = GSM871526
+!Platform_sample_id = GSM871527
+!Platform_sample_id = GSM871528
+!Platform_sample_id = GSM871529
+!Platform_sample_id = GSM871530
+!Platform_sample_id = GSM871531
+!Platform_sample_id = GSM871532
+!Platform_sample_id = GSM871533
+!Platform_sample_id = GSM871534
+!Platform_sample_id = GSM871535
+!Platform_sample_id = GSM871536
+!Platform_sample_id = GSM871537
+!Platform_sample_id = GSM871538
+!Platform_sample_id = GSM871539
+!Platform_sample_id = GSM871540
+!Platform_sample_id = GSM871541
+!Platform_sample_id = GSM871542
+!Platform_sample_id = GSM871543
+!Platform_sample_id = GSM871544
+!Platform_sample_id = GSM871545
+!Platform_sample_id = GSM871546
+!Platform_sample_id = GSM881439
+!Platform_sample_id = GSM881440
+!Platform_sample_id = GSM881441
+!Platform_sample_id = GSM881442
+!Platform_sample_id = GSM881443
+!Platform_sample_id = GSM881444
+!Platform_sample_id = GSM881445
+!Platform_sample_id = GSM881446
+!Platform_sample_id = GSM881447
+!Platform_sample_id = GSM881448
+!Platform_sample_id = GSM881449
+!Platform_sample_id = GSM881450
+!Platform_sample_id = GSM881451
+!Platform_sample_id = GSM881452
+!Platform_sample_id = GSM881453
+!Platform_sample_id = GSM881454
+!Platform_sample_id = GSM881455
+!Platform_sample_id = GSM881456
+!Platform_sample_id = GSM881457
+!Platform_sample_id = GSM881458
+!Platform_sample_id = GSM881459
+!Platform_sample_id = GSM881460
+!Platform_sample_id = GSM881461
+!Platform_sample_id = GSM881462
+!Platform_sample_id = GSM881736
+!Platform_sample_id = GSM881737
+!Platform_sample_id = GSM881738
+!Platform_sample_id = GSM881739
+!Platform_sample_id = GSM881740
+!Platform_sample_id = GSM881741
+!Platform_sample_id = GSM881742
+!Platform_sample_id = GSM909352
+!Platform_sample_id = GSM909353
+!Platform_sample_id = GSM909354
+!Platform_sample_id = GSM909355
+!Platform_sample_id = GSM909356
+!Platform_sample_id = GSM909357
+!Platform_sample_id = GSM909358
+!Platform_sample_id = GSM909359
+!Platform_sample_id = GSM909360
+!Platform_sample_id = GSM909361
+!Platform_sample_id = GSM909362
+!Platform_sample_id = GSM909363
+!Platform_sample_id = GSM909364
+!Platform_sample_id = GSM909365
+!Platform_sample_id = GSM909366
+!Platform_sample_id = GSM909367
+!Platform_sample_id = GSM909368
+!Platform_sample_id = GSM909369
+!Platform_sample_id = GSM909370
+!Platform_sample_id = GSM909371
+!Platform_sample_id = GSM909372
+!Platform_sample_id = GSM909373
+!Platform_sample_id = GSM909374
+!Platform_sample_id = GSM909375
+!Platform_sample_id = GSM909376
+!Platform_sample_id = GSM909377
+!Platform_sample_id = GSM909378
+!Platform_sample_id = GSM909379
+!Platform_sample_id = GSM909380
+!Platform_sample_id = GSM909381
+!Platform_sample_id = GSM909382
+!Platform_sample_id = GSM909383
+!Platform_sample_id = GSM909384
+!Platform_sample_id = GSM909385
+!Platform_sample_id = GSM909386
+!Platform_sample_id = GSM909387
+!Platform_sample_id = GSM909388
+!Platform_sample_id = GSM909389
+!Platform_sample_id = GSM909390
+!Platform_sample_id = GSM909391
+!Platform_sample_id = GSM909392
+!Platform_sample_id = GSM909393
+!Platform_sample_id = GSM909394
+!Platform_sample_id = GSM909395
+!Platform_sample_id = GSM909396
+!Platform_sample_id = GSM909397
+!Platform_sample_id = GSM909398
+!Platform_sample_id = GSM909399
+!Platform_sample_id = GSM909400
+!Platform_sample_id = GSM909401
+!Platform_sample_id = GSM909402
+!Platform_sample_id = GSM909403
+!Platform_sample_id = GSM909404
+!Platform_sample_id = GSM909405
+!Platform_sample_id = GSM909406
+!Platform_sample_id = GSM909407
+!Platform_sample_id = GSM909408
+!Platform_sample_id = GSM995552
+!Platform_sample_id = GSM995553
+!Platform_sample_id = GSM995554
+!Platform_sample_id = GSM995555
+!Platform_sample_id = GSM995556
+!Platform_sample_id = GSM995557
+!Platform_sample_id = GSM995558
+!Platform_sample_id = GSM995559
+!Platform_sample_id = GSM995560
+!Platform_sample_id = GSM995561
+!Platform_sample_id = GSM995562
+!Platform_sample_id = GSM995563
+!Platform_sample_id = GSM995564
+!Platform_sample_id = GSM995565
+!Platform_sample_id = GSM995566
+!Platform_sample_id = GSM995567
+!Platform_sample_id = GSM995568
+!Platform_sample_id = GSM995569
+!Platform_sample_id = GSM995570
+!Platform_sample_id = GSM995571
+!Platform_sample_id = GSM995572
+!Platform_sample_id = GSM995573
+!Platform_sample_id = GSM995574
+!Platform_sample_id = GSM995575
+!Platform_sample_id = GSM995576
+!Platform_sample_id = GSM995577
+!Platform_sample_id = GSM995578
+!Platform_sample_id = GSM995579
+!Platform_sample_id = GSM995580
+!Platform_sample_id = GSM995581
+!Platform_sample_id = GSM995582
+!Platform_sample_id = GSM995583
+!Platform_sample_id = GSM995584
+!Platform_sample_id = GSM995585
+!Platform_sample_id = GSM995586
+!Platform_sample_id = GSM995587
+!Platform_sample_id = GSM995588
+!Platform_sample_id = GSM995589
+!Platform_sample_id = GSM995590
+!Platform_sample_id = GSM995591
+!Platform_sample_id = GSM995592
+!Platform_sample_id = GSM995593
+!Platform_sample_id = GSM995594
+!Platform_sample_id = GSM995595
+!Platform_sample_id = GSM995596
+!Platform_sample_id = GSM995597
+!Platform_sample_id = GSM995598
+!Platform_sample_id = GSM995599
+!Platform_sample_id = GSM995600
+!Platform_sample_id = GSM995601
+!Platform_sample_id = GSM995602
+!Platform_sample_id = GSM995603
+!Platform_sample_id = GSM995604
+!Platform_sample_id = GSM995605
+!Platform_sample_id = GSM995606
+!Platform_sample_id = GSM995607
+!Platform_sample_id = GSM995608
+!Platform_sample_id = GSM995609
+!Platform_sample_id = GSM995610
+!Platform_sample_id = GSM995611
+!Platform_sample_id = GSM995612
+!Platform_sample_id = GSM995613
+!Platform_sample_id = GSM995614
+!Platform_sample_id = GSM995615
+!Platform_sample_id = GSM995616
+!Platform_sample_id = GSM995617
+!Platform_sample_id = GSM995618
+!Platform_sample_id = GSM995619
+!Platform_sample_id = GSM995620
+!Platform_sample_id = GSM995621
+!Platform_sample_id = GSM995622
+!Platform_sample_id = GSM995623
+!Platform_sample_id = GSM995624
+!Platform_sample_id = GSM995625
+!Platform_sample_id = GSM995626
+!Platform_sample_id = GSM995627
+!Platform_sample_id = GSM995628
+!Platform_sample_id = GSM995629
+!Platform_sample_id = GSM995630
+!Platform_sample_id = GSM995631
+!Platform_sample_id = GSM995632
+!Platform_sample_id = GSM995633
+!Platform_sample_id = GSM995634
+!Platform_sample_id = GSM995635
+!Platform_sample_id = GSM995636
+!Platform_sample_id = GSM995637
+!Platform_sample_id = GSM995638
+!Platform_sample_id = GSM995639
+!Platform_sample_id = GSM995640
+!Platform_sample_id = GSM995641
+!Platform_sample_id = GSM995642
+!Platform_sample_id = GSM995643
+!Platform_sample_id = GSM995644
+!Platform_sample_id = GSM995645
+!Platform_sample_id = GSM995646
+!Platform_sample_id = GSM995647
+!Platform_sample_id = GSM995648
+!Platform_sample_id = GSM995649
+!Platform_sample_id = GSM995650
+!Platform_sample_id = GSM995651
+!Platform_sample_id = GSM995652
+!Platform_sample_id = GSM995653
+!Platform_sample_id = GSM995654
+!Platform_sample_id = GSM995655
+!Platform_sample_id = GSM995656
+!Platform_sample_id = GSM995657
+!Platform_sample_id = GSM995658
+!Platform_sample_id = GSM995659
+!Platform_sample_id = GSM995660
+!Platform_sample_id = GSM995661
+!Platform_sample_id = GSM995662
+!Platform_sample_id = GSM995663
+!Platform_sample_id = GSM995664
+!Platform_sample_id = GSM995665
+!Platform_sample_id = GSM995666
+!Platform_sample_id = GSM995667
+!Platform_sample_id = GSM995668
+!Platform_sample_id = GSM995669
+!Platform_sample_id = GSM995670
+!Platform_sample_id = GSM995671
+!Platform_sample_id = GSM995777
+!Platform_sample_id = GSM995778
+!Platform_sample_id = GSM995779
+!Platform_sample_id = GSM995780
+!Platform_sample_id = GSM995781
+!Platform_sample_id = GSM995782
+!Platform_sample_id = GSM995783
+!Platform_sample_id = GSM995784
+!Platform_sample_id = GSM995785
+!Platform_sample_id = GSM995786
+!Platform_sample_id = GSM995787
+!Platform_sample_id = GSM995788
+!Platform_sample_id = GSM995789
+!Platform_sample_id = GSM995790
+!Platform_sample_id = GSM995791
+!Platform_sample_id = GSM995792
+!Platform_sample_id = GSM995793
+!Platform_sample_id = GSM995794
+!Platform_sample_id = GSM995795
+!Platform_sample_id = GSM995796
+!Platform_sample_id = GSM995797
+!Platform_sample_id = GSM995798
+!Platform_sample_id = GSM995799
+!Platform_sample_id = GSM995800
+!Platform_sample_id = GSM995801
+!Platform_sample_id = GSM995802
+!Platform_sample_id = GSM995803
+!Platform_sample_id = GSM995804
+!Platform_sample_id = GSM995805
+!Platform_sample_id = GSM995806
+!Platform_sample_id = GSM995807
+!Platform_sample_id = GSM995808
+!Platform_sample_id = GSM995809
+!Platform_sample_id = GSM995810
+!Platform_sample_id = GSM995811
+!Platform_sample_id = GSM995812
+!Platform_sample_id = GSM995813
+!Platform_sample_id = GSM995814
+!Platform_sample_id = GSM995815
+!Platform_sample_id = GSM995816
+!Platform_sample_id = GSM995817
+!Platform_sample_id = GSM995818
+!Platform_sample_id = GSM995819
+!Platform_sample_id = GSM995820
+!Platform_sample_id = GSM995821
+!Platform_sample_id = GSM995822
+!Platform_sample_id = GSM995823
+!Platform_sample_id = GSM995824
+!Platform_sample_id = GSM995825
+!Platform_sample_id = GSM995826
+!Platform_sample_id = GSM995827
+!Platform_sample_id = GSM995828
+!Platform_sample_id = GSM995829
+!Platform_sample_id = GSM995830
+!Platform_sample_id = GSM995831
+!Platform_sample_id = GSM995832
+!Platform_sample_id = GSM995833
+!Platform_sample_id = GSM995834
+!Platform_sample_id = GSM995835
+!Platform_sample_id = GSM995836
+!Platform_sample_id = GSM995837
+!Platform_sample_id = GSM995838
+!Platform_sample_id = GSM995839
+!Platform_sample_id = GSM995840
+!Platform_sample_id = GSM995841
+!Platform_sample_id = GSM995842
+!Platform_sample_id = GSM995843
+!Platform_sample_id = GSM995844
+!Platform_sample_id = GSM995845
+!Platform_sample_id = GSM995846
+!Platform_sample_id = GSM995847
+!Platform_sample_id = GSM995848
+!Platform_sample_id = GSM995849
+!Platform_sample_id = GSM995850
+!Platform_sample_id = GSM995851
+!Platform_sample_id = GSM995852
+!Platform_sample_id = GSM995853
+!Platform_sample_id = GSM995854
+!Platform_sample_id = GSM995855
+!Platform_sample_id = GSM995856
+!Platform_sample_id = GSM995857
+!Platform_sample_id = GSM995858
+!Platform_sample_id = GSM995859
+!Platform_sample_id = GSM995860
+!Platform_sample_id = GSM995861
+!Platform_sample_id = GSM995862
+!Platform_sample_id = GSM995863
+!Platform_sample_id = GSM995864
+!Platform_sample_id = GSM995865
+!Platform_sample_id = GSM995866
+!Platform_sample_id = GSM995867
+!Platform_sample_id = GSM995868
+!Platform_sample_id = GSM995869
+!Platform_sample_id = GSM995870
+!Platform_sample_id = GSM995871
+!Platform_sample_id = GSM995872
+!Platform_sample_id = GSM995873
+!Platform_sample_id = GSM995874
+!Platform_sample_id = GSM995875
+!Platform_sample_id = GSM995876
+!Platform_sample_id = GSM995877
+!Platform_sample_id = GSM995878
+!Platform_sample_id = GSM995879
+!Platform_sample_id = GSM995880
+!Platform_sample_id = GSM995881
+!Platform_sample_id = GSM995882
+!Platform_sample_id = GSM995883
+!Platform_sample_id = GSM995884
+!Platform_sample_id = GSM995885
+!Platform_sample_id = GSM995886
+!Platform_sample_id = GSM995887
+!Platform_sample_id = GSM995888
+!Platform_sample_id = GSM995889
+!Platform_sample_id = GSM995890
+!Platform_sample_id = GSM995891
+!Platform_sample_id = GSM995892
+!Platform_sample_id = GSM995893
+!Platform_sample_id = GSM995894
+!Platform_sample_id = GSM995895
+!Platform_sample_id = GSM995896
+!Platform_sample_id = GSM995897
+!Platform_sample_id = GSM995898
+!Platform_sample_id = GSM995899
+!Platform_sample_id = GSM995900
+!Platform_sample_id = GSM995901
+!Platform_sample_id = GSM995902
+!Platform_sample_id = GSM995903
+!Platform_sample_id = GSM995904
+!Platform_sample_id = GSM995905
+!Platform_sample_id = GSM995906
+!Platform_sample_id = GSM995907
+!Platform_sample_id = GSM995908
+!Platform_sample_id = GSM995909
+!Platform_sample_id = GSM995910
+!Platform_sample_id = GSM995911
+!Platform_sample_id = GSM995912
+!Platform_sample_id = GSM995913
+!Platform_sample_id = GSM995914
+!Platform_sample_id = GSM995915
+!Platform_sample_id = GSM995916
+!Platform_sample_id = GSM995917
+!Platform_sample_id = GSM995918
+!Platform_sample_id = GSM995919
+!Platform_sample_id = GSM995920
+!Platform_sample_id = GSM995921
+!Platform_sample_id = GSM995922
+!Platform_sample_id = GSM995923
+!Platform_sample_id = GSM995924
+!Platform_sample_id = GSM995925
+!Platform_sample_id = GSM995926
+!Platform_sample_id = GSM1002105
+!Platform_sample_id = GSM1002106
+!Platform_sample_id = GSM1002107
+!Platform_sample_id = GSM1002108
+!Platform_sample_id = GSM1002109
+!Platform_sample_id = GSM1002110
+!Platform_sample_id = GSM1002111
+!Platform_sample_id = GSM1002112
+!Platform_sample_id = GSM1002113
+!Platform_sample_id = GSM1002114
+!Platform_sample_id = GSM1002115
+!Platform_sample_id = GSM1002116
+!Platform_sample_id = GSM1002117
+!Platform_sample_id = GSM1002118
+!Platform_sample_id = GSM1002119
+!Platform_sample_id = GSM1002120
+!Platform_sample_id = GSM1002121
+!Platform_sample_id = GSM1002122
+!Platform_sample_id = GSM1002123
+!Platform_sample_id = GSM1002124
+!Platform_sample_id = GSM1002125
+!Platform_sample_id = GSM1002126
+!Platform_sample_id = GSM1002127
+!Platform_sample_id = GSM1002128
+!Platform_sample_id = GSM1002129
+!Platform_sample_id = GSM1002130
+!Platform_sample_id = GSM1002131
+!Platform_sample_id = GSM1002132
+!Platform_sample_id = GSM1002133
+!Platform_sample_id = GSM1002134
+!Platform_sample_id = GSM1002135
+!Platform_sample_id = GSM1002136
+!Platform_sample_id = GSM1002137
+!Platform_sample_id = GSM1002138
+!Platform_sample_id = GSM1002139
+!Platform_sample_id = GSM1002140
+!Platform_sample_id = GSM1002141
+!Platform_sample_id = GSM1002142
+!Platform_sample_id = GSM1002143
+!Platform_sample_id = GSM1002144
+!Platform_sample_id = GSM1002145
+!Platform_sample_id = GSM1002146
+!Platform_sample_id = GSM1002147
+!Platform_sample_id = GSM1002148
+!Platform_sample_id = GSM1002149
+!Platform_sample_id = GSM1002150
+!Platform_sample_id = GSM1002151
+!Platform_sample_id = GSM1002152
+!Platform_sample_id = GSM1002153
+!Platform_sample_id = GSM1002154
+!Platform_sample_id = GSM1002155
+!Platform_sample_id = GSM1002156
+!Platform_sample_id = GSM1002157
+!Platform_sample_id = GSM1002158
+!Platform_sample_id = GSM1002159
+!Platform_sample_id = GSM1002160
+!Platform_sample_id = GSM1002161
+!Platform_sample_id = GSM1002162
+!Platform_sample_id = GSM1002163
+!Platform_sample_id = GSM1002164
+!Platform_sample_id = GSM1002165
+!Platform_sample_id = GSM1002166
+!Platform_sample_id = GSM1002167
+!Platform_sample_id = GSM1002168
+!Platform_sample_id = GSM1002169
+!Platform_sample_id = GSM1002170
+!Platform_sample_id = GSM1002171
+!Platform_sample_id = GSM1002172
+!Platform_sample_id = GSM1002173
+!Platform_sample_id = GSM1002174
+!Platform_sample_id = GSM1002175
+!Platform_sample_id = GSM1002176
+!Platform_sample_id = GSM1002177
+!Platform_sample_id = GSM1002178
+!Platform_sample_id = GSM1002179
+!Platform_sample_id = GSM1002180
+!Platform_sample_id = GSM1002181
+!Platform_sample_id = GSM1002182
+!Platform_sample_id = GSM1002183
+!Platform_sample_id = GSM1002184
+!Platform_sample_id = GSM1045660
+!Platform_sample_id = GSM1045661
+!Platform_sample_id = GSM1045662
+!Platform_sample_id = GSM1045663
+!Platform_sample_id = GSM1045664
+!Platform_sample_id = GSM1045665
+!Platform_sample_id = GSM1045666
+!Platform_sample_id = GSM1045667
+!Platform_sample_id = GSM1045668
+!Platform_sample_id = GSM1045669
+!Platform_sample_id = GSM1045670
+!Platform_sample_id = GSM1045671
+!Platform_sample_id = GSM1045672
+!Platform_sample_id = GSM1045673
+!Platform_sample_id = GSM1045674
+!Platform_sample_id = GSM1045675
+!Platform_sample_id = GSM1045676
+!Platform_sample_id = GSM1045677
+!Platform_sample_id = GSM1079086
+!Platform_sample_id = GSM1079087
+!Platform_sample_id = GSM1079088
+!Platform_sample_id = GSM1079089
+!Platform_sample_id = GSM1079562
+!Platform_sample_id = GSM1079563
+!Platform_sample_id = GSM1079564
+!Platform_sample_id = GSM1079565
+!Platform_sample_id = GSM1079608
+!Platform_sample_id = GSM1079609
+!Platform_sample_id = GSM1079610
+!Platform_sample_id = GSM1079611
+!Platform_sample_id = GSM1079612
+!Platform_sample_id = GSM1079613
+!Platform_sample_id = GSM1098029
+!Platform_sample_id = GSM1098030
+!Platform_sample_id = GSM1098031
+!Platform_sample_id = GSM1098032
+!Platform_sample_id = GSM1098033
+!Platform_sample_id = GSM1098034
+!Platform_sample_id = GSM1098035
+!Platform_sample_id = GSM1098036
+!Platform_sample_id = GSM1141389
+!Platform_sample_id = GSM1141390
+!Platform_sample_id = GSM1141391
+!Platform_sample_id = GSM1141392
+!Platform_sample_id = GSM1141393
+!Platform_sample_id = GSM1141394
+!Platform_sample_id = GSM1141395
+!Platform_sample_id = GSM1141396
+!Platform_sample_id = GSM1141397
+!Platform_sample_id = GSM1141398
+!Platform_sample_id = GSM1141399
+!Platform_sample_id = GSM1141400
+!Platform_sample_id = GSM1141401
+!Platform_sample_id = GSM1141402
+!Platform_sample_id = GSM1141403
+!Platform_sample_id = GSM1141404
+!Platform_sample_id = GSM1141405
+!Platform_sample_id = GSM1141406
+!Platform_sample_id = GSM1141407
+!Platform_sample_id = GSM1141408
+!Platform_sample_id = GSM1141409
+!Platform_sample_id = GSM1141410
+!Platform_sample_id = GSM1141411
+!Platform_sample_id = GSM1141412
+!Platform_sample_id = GSM1141413
+!Platform_sample_id = GSM1141414
+!Platform_sample_id = GSM1141415
+!Platform_sample_id = GSM1141416
+!Platform_sample_id = GSM1141417
+!Platform_sample_id = GSM1141418
+!Platform_sample_id = GSM1141419
+!Platform_sample_id = GSM1141420
+!Platform_sample_id = GSM1141421
+!Platform_sample_id = GSM1141422
+!Platform_sample_id = GSM1141423
+!Platform_sample_id = GSM1141424
+!Platform_sample_id = GSM1141425
+!Platform_sample_id = GSM1141426
+!Platform_sample_id = GSM1141427
+!Platform_sample_id = GSM1141428
+!Platform_sample_id = GSM1141429
+!Platform_sample_id = GSM1141430
+!Platform_sample_id = GSM1141431
+!Platform_sample_id = GSM1141432
+!Platform_sample_id = GSM1141433
+!Platform_sample_id = GSM1141434
+!Platform_sample_id = GSM1141435
+!Platform_sample_id = GSM1141436
+!Platform_sample_id = GSM1141437
+!Platform_sample_id = GSM1141438
+!Platform_sample_id = GSM1141439
+!Platform_sample_id = GSM1141440
+!Platform_sample_id = GSM1141441
+!Platform_sample_id = GSM1141442
+!Platform_sample_id = GSM1141443
+!Platform_sample_id = GSM1141444
+!Platform_sample_id = GSM1141445
+!Platform_sample_id = GSM1141446
+!Platform_sample_id = GSM1141447
+!Platform_sample_id = GSM1141448
+!Platform_sample_id = GSM1141449
+!Platform_sample_id = GSM1141450
+!Platform_sample_id = GSM1141451
+!Platform_sample_id = GSM1141452
+!Platform_sample_id = GSM1141453
+!Platform_sample_id = GSM1141454
+!Platform_sample_id = GSM1141455
+!Platform_sample_id = GSM1141456
+!Platform_sample_id = GSM1141457
+!Platform_sample_id = GSM1141458
+!Platform_sample_id = GSM1141459
+!Platform_sample_id = GSM1141460
+!Platform_sample_id = GSM1141461
+!Platform_sample_id = GSM1141462
+!Platform_sample_id = GSM1141463
+!Platform_sample_id = GSM1141464
+!Platform_sample_id = GSM1141465
+!Platform_sample_id = GSM1141466
+!Platform_sample_id = GSM1141467
+!Platform_sample_id = GSM1141468
+!Platform_sample_id = GSM1141469
+!Platform_sample_id = GSM1141470
+!Platform_sample_id = GSM1141471
+!Platform_sample_id = GSM1141472
+!Platform_sample_id = GSM1141473
+!Platform_sample_id = GSM1141474
+!Platform_sample_id = GSM1141475
+!Platform_sample_id = GSM1141476
+!Platform_sample_id = GSM1141477
+!Platform_sample_id = GSM1141478
+!Platform_sample_id = GSM1141479
+!Platform_sample_id = GSM1141480
+!Platform_sample_id = GSM1141481
+!Platform_sample_id = GSM1141482
+!Platform_sample_id = GSM1141483
+!Platform_sample_id = GSM1141484
+!Platform_sample_id = GSM1141485
+!Platform_sample_id = GSM1141486
+!Platform_sample_id = GSM1141487
+!Platform_sample_id = GSM1141488
+!Platform_sample_id = GSM1141489
+!Platform_sample_id = GSM1141490
+!Platform_sample_id = GSM1141491
+!Platform_sample_id = GSM1141492
+!Platform_sample_id = GSM1141493
+!Platform_sample_id = GSM1141494
+!Platform_sample_id = GSM1141495
+!Platform_sample_id = GSM1141496
+!Platform_sample_id = GSM1141497
+!Platform_sample_id = GSM1141498
+!Platform_sample_id = GSM1141499
+!Platform_sample_id = GSM1141500
+!Platform_sample_id = GSM1141501
+!Platform_sample_id = GSM1141502
+!Platform_sample_id = GSM1141503
+!Platform_sample_id = GSM1141504
+!Platform_sample_id = GSM1141505
+!Platform_sample_id = GSM1141506
+!Platform_sample_id = GSM1141507
+!Platform_sample_id = GSM1141508
+!Platform_sample_id = GSM1141509
+!Platform_sample_id = GSM1141510
+!Platform_sample_id = GSM1141511
+!Platform_sample_id = GSM1141512
+!Platform_sample_id = GSM1141513
+!Platform_sample_id = GSM1141514
+!Platform_sample_id = GSM1141515
+!Platform_sample_id = GSM1141516
+!Platform_sample_id = GSM1141517
+!Platform_sample_id = GSM1141518
+!Platform_sample_id = GSM1141519
+!Platform_sample_id = GSM1141520
+!Platform_sample_id = GSM1141521
+!Platform_sample_id = GSM1141522
+!Platform_sample_id = GSM1141523
+!Platform_sample_id = GSM1141524
+!Platform_sample_id = GSM1141525
+!Platform_sample_id = GSM1141526
+!Platform_sample_id = GSM1141527
+!Platform_sample_id = GSM1141528
+!Platform_sample_id = GSM1141529
+!Platform_sample_id = GSM1141530
+!Platform_sample_id = GSM1141531
+!Platform_sample_id = GSM1141532
+!Platform_sample_id = GSM1141533
+!Platform_sample_id = GSM1141534
+!Platform_sample_id = GSM1141535
+!Platform_sample_id = GSM1141536
+!Platform_sample_id = GSM1141537
+!Platform_sample_id = GSM1151671
+!Platform_sample_id = GSM1151672
+!Platform_sample_id = GSM1151673
+!Platform_sample_id = GSM1151674
+!Platform_sample_id = GSM1151675
+!Platform_sample_id = GSM1151676
+!Platform_sample_id = GSM1151677
+!Platform_sample_id = GSM1151678
+!Platform_sample_id = GSM1151679
+!Platform_sample_id = GSM1151680
+!Platform_sample_id = GSM1151681
+!Platform_sample_id = GSM1153144
+!Platform_sample_id = GSM1153145
+!Platform_sample_id = GSM1153146
+!Platform_sample_id = GSM1153147
+!Platform_sample_id = GSM1153148
+!Platform_sample_id = GSM1199638
+!Platform_sample_id = GSM1199639
+!Platform_sample_id = GSM1199640
+!Platform_sample_id = GSM1199641
+!Platform_sample_id = GSM1199642
+!Platform_sample_id = GSM1199643
+!Platform_sample_id = GSM1240807
+!Platform_sample_id = GSM1240808
+!Platform_sample_id = GSM1240809
+!Platform_sample_id = GSM1240810
+!Platform_sample_id = GSM1240811
+!Platform_sample_id = GSM1240812
+!Platform_sample_id = GSM1246961
+!Platform_sample_id = GSM1246962
+!Platform_sample_id = GSM1246963
+!Platform_sample_id = GSM1246964
+!Platform_sample_id = GSM1246965
+!Platform_sample_id = GSM1246966
+!Platform_sample_id = GSM1246967
+!Platform_sample_id = GSM1246968
+!Platform_sample_id = GSM1246969
+!Platform_sample_id = GSM1246970
+!Platform_sample_id = GSM1246971
+!Platform_sample_id = GSM1246972
+!Platform_sample_id = GSM1246973
+!Platform_sample_id = GSM1246974
+!Platform_sample_id = GSM1246975
+!Platform_sample_id = GSM1246976
+!Platform_sample_id = GSM1246977
+!Platform_sample_id = GSM1246978
+!Platform_sample_id = GSM1246979
+!Platform_sample_id = GSM1246980
+!Platform_sample_id = GSM1246981
+!Platform_sample_id = GSM1246982
+!Platform_sample_id = GSM1246983
+!Platform_sample_id = GSM1246984
+!Platform_sample_id = GSM1246985
+!Platform_sample_id = GSM1246986
+!Platform_sample_id = GSM1246987
+!Platform_sample_id = GSM1246988
+!Platform_sample_id = GSM1246989
+!Platform_sample_id = GSM1246990
+!Platform_sample_id = GSM1246991
+!Platform_sample_id = GSM1246992
+!Platform_sample_id = GSM1246993
+!Platform_sample_id = GSM1246994
+!Platform_sample_id = GSM1246995
+!Platform_sample_id = GSM1246996
+!Platform_sample_id = GSM1246997
+!Platform_sample_id = GSM1246998
+!Platform_sample_id = GSM1246999
+!Platform_sample_id = GSM1247000
+!Platform_sample_id = GSM1247001
+!Platform_sample_id = GSM1247002
+!Platform_sample_id = GSM1247003
+!Platform_sample_id = GSM1247004
+!Platform_sample_id = GSM1247005
+!Platform_sample_id = GSM1247006
+!Platform_sample_id = GSM1247007
+!Platform_sample_id = GSM1247008
+!Platform_sample_id = GSM1247009
+!Platform_sample_id = GSM1247010
+!Platform_sample_id = GSM1247011
+!Platform_sample_id = GSM1247012
+!Platform_sample_id = GSM1247013
+!Platform_sample_id = GSM1247014
+!Platform_sample_id = GSM1247015
+!Platform_sample_id = GSM1247016
+!Platform_sample_id = GSM1247017
+!Platform_sample_id = GSM1247018
+!Platform_sample_id = GSM1247019
+!Platform_sample_id = GSM1247020
+!Platform_sample_id = GSM1247021
+!Platform_sample_id = GSM1247022
+!Platform_sample_id = GSM1247023
+!Platform_sample_id = GSM1247024
+!Platform_sample_id = GSM1247025
+!Platform_sample_id = GSM1247026
+!Platform_sample_id = GSM1247027
+!Platform_sample_id = GSM1247028
+!Platform_sample_id = GSM1247029
+!Platform_sample_id = GSM1247030
+!Platform_sample_id = GSM1247031
+!Platform_sample_id = GSM1247032
+!Platform_sample_id = GSM1247033
+!Platform_sample_id = GSM1247034
+!Platform_sample_id = GSM1247035
+!Platform_sample_id = GSM1247036
+!Platform_sample_id = GSM1247037
+!Platform_sample_id = GSM1247038
+!Platform_sample_id = GSM1247039
+!Platform_sample_id = GSM1247040
+!Platform_sample_id = GSM1247041
+!Platform_sample_id = GSM1247042
+!Platform_sample_id = GSM1247043
+!Platform_sample_id = GSM1247044
+!Platform_sample_id = GSM1247045
+!Platform_sample_id = GSM1247046
+!Platform_sample_id = GSM1247047
+!Platform_sample_id = GSM1247048
+!Platform_sample_id = GSM1247049
+!Platform_sample_id = GSM1247050
+!Platform_sample_id = GSM1247051
+!Platform_sample_id = GSM1247052
+!Platform_sample_id = GSM1247053
+!Platform_sample_id = GSM1247054
+!Platform_sample_id = GSM1247055
+!Platform_sample_id = GSM1247056
+!Platform_sample_id = GSM1247057
+!Platform_sample_id = GSM1247058
+!Platform_sample_id = GSM1247059
+!Platform_sample_id = GSM1247060
+!Platform_sample_id = GSM1247061
+!Platform_sample_id = GSM1247062
+!Platform_sample_id = GSM1247063
+!Platform_sample_id = GSM1247064
+!Platform_sample_id = GSM1247065
+!Platform_sample_id = GSM1247066
+!Platform_sample_id = GSM1247067
+!Platform_sample_id = GSM1247068
+!Platform_sample_id = GSM1247069
+!Platform_sample_id = GSM1247070
+!Platform_sample_id = GSM1247071
+!Platform_sample_id = GSM1247072
+!Platform_sample_id = GSM1247073
+!Platform_sample_id = GSM1247074
+!Platform_sample_id = GSM1247075
+!Platform_sample_id = GSM1247076
+!Platform_sample_id = GSM1247077
+!Platform_sample_id = GSM1247078
+!Platform_sample_id = GSM1247079
+!Platform_sample_id = GSM1247080
+!Platform_sample_id = GSM1247081
+!Platform_sample_id = GSM1247082
+!Platform_sample_id = GSM1247083
+!Platform_sample_id = GSM1247084
+!Platform_sample_id = GSM1247085
+!Platform_sample_id = GSM1247086
+!Platform_sample_id = GSM1247087
+!Platform_sample_id = GSM1247088
+!Platform_sample_id = GSM1247089
+!Platform_sample_id = GSM1247090
+!Platform_sample_id = GSM1247091
+!Platform_sample_id = GSM1247092
+!Platform_sample_id = GSM1247093
+!Platform_sample_id = GSM1247094
+!Platform_sample_id = GSM1247095
+!Platform_sample_id = GSM1247096
+!Platform_sample_id = GSM1247097
+!Platform_sample_id = GSM1247098
+!Platform_sample_id = GSM1247099
+!Platform_sample_id = GSM1247100
+!Platform_sample_id = GSM1247101
+!Platform_sample_id = GSM1247102
+!Platform_sample_id = GSM1247103
+!Platform_sample_id = GSM1247104
+!Platform_sample_id = GSM1247105
+!Platform_sample_id = GSM1247106
+!Platform_sample_id = GSM1247107
+!Platform_sample_id = GSM1247108
+!Platform_sample_id = GSM1247109
+!Platform_sample_id = GSM1247110
+!Platform_sample_id = GSM1247111
+!Platform_sample_id = GSM1247112
+!Platform_sample_id = GSM1247113
+!Platform_sample_id = GSM1247114
+!Platform_sample_id = GSM1247115
+!Platform_sample_id = GSM1247116
+!Platform_sample_id = GSM1247117
+!Platform_sample_id = GSM1247118
+!Platform_sample_id = GSM1247119
+!Platform_sample_id = GSM1247120
+!Platform_sample_id = GSM1247121
+!Platform_sample_id = GSM1247122
+!Platform_sample_id = GSM1247123
+!Platform_sample_id = GSM1247124
+!Platform_sample_id = GSM1247125
+!Platform_sample_id = GSM1247126
+!Platform_sample_id = GSM1247127
+!Platform_sample_id = GSM1247128
+!Platform_sample_id = GSM1247129
+!Platform_sample_id = GSM1247130
+!Platform_sample_id = GSM1247131
+!Platform_sample_id = GSM1247132
+!Platform_sample_id = GSM1247133
+!Platform_sample_id = GSM1247134
+!Platform_sample_id = GSM1247135
+!Platform_sample_id = GSM1247136
+!Platform_sample_id = GSM1247137
+!Platform_sample_id = GSM1247138
+!Platform_sample_id = GSM1247139
+!Platform_sample_id = GSM1247140
+!Platform_sample_id = GSM1247141
+!Platform_sample_id = GSM1247142
+!Platform_sample_id = GSM1247143
+!Platform_sample_id = GSM1247144
+!Platform_sample_id = GSM1247145
+!Platform_sample_id = GSM1247146
+!Platform_sample_id = GSM1247147
+!Platform_sample_id = GSM1247148
+!Platform_sample_id = GSM1247149
+!Platform_sample_id = GSM1247150
+!Platform_sample_id = GSM1247151
+!Platform_sample_id = GSM1247152
+!Platform_sample_id = GSM1247153
+!Platform_sample_id = GSM1247154
+!Platform_sample_id = GSM1247155
+!Platform_sample_id = GSM1247156
+!Platform_sample_id = GSM1247157
+!Platform_sample_id = GSM1247158
+!Platform_sample_id = GSM1247159
+!Platform_sample_id = GSM1247160
+!Platform_sample_id = GSM1247161
+!Platform_sample_id = GSM1247162
+!Platform_sample_id = GSM1247163
+!Platform_sample_id = GSM1247164
+!Platform_sample_id = GSM1247165
+!Platform_sample_id = GSM1247166
+!Platform_sample_id = GSM1247167
+!Platform_sample_id = GSM1247168
+!Platform_sample_id = GSM1247169
+!Platform_sample_id = GSM1247170
+!Platform_sample_id = GSM1247171
+!Platform_sample_id = GSM1247172
+!Platform_sample_id = GSM1247173
+!Platform_sample_id = GSM1247174
+!Platform_sample_id = GSM1247175
+!Platform_sample_id = GSM1247176
+!Platform_sample_id = GSM1247177
+!Platform_sample_id = GSM1247178
+!Platform_sample_id = GSM1247179
+!Platform_sample_id = GSM1247180
+!Platform_sample_id = GSM1247181
+!Platform_sample_id = GSM1247182
+!Platform_sample_id = GSM1247183
+!Platform_sample_id = GSM1247184
+!Platform_sample_id = GSM1247185
+!Platform_sample_id = GSM1247186
+!Platform_sample_id = GSM1247187
+!Platform_sample_id = GSM1247188
+!Platform_sample_id = GSM1247189
+!Platform_sample_id = GSM1247190
+!Platform_sample_id = GSM1247191
+!Platform_sample_id = GSM1247192
+!Platform_sample_id = GSM1247193
+!Platform_sample_id = GSM1247194
+!Platform_sample_id = GSM1247195
+!Platform_sample_id = GSM1247196
+!Platform_sample_id = GSM1247197
+!Platform_sample_id = GSM1247198
+!Platform_sample_id = GSM1247199
+!Platform_sample_id = GSM1247200
+!Platform_sample_id = GSM1247201
+!Platform_sample_id = GSM1247202
+!Platform_sample_id = GSM1347053
+!Platform_sample_id = GSM1347054
+!Platform_sample_id = GSM1347055
+!Platform_sample_id = GSM1347056
+!Platform_sample_id = GSM1347057
+!Platform_sample_id = GSM1347058
+!Platform_sample_id = GSM1347059
+!Platform_sample_id = GSM1347060
+!Platform_sample_id = GSM1347061
+!Platform_sample_id = GSM1347062
+!Platform_sample_id = GSM1347063
+!Platform_sample_id = GSM1347064
+!Platform_sample_id = GSM1366416
+!Platform_sample_id = GSM1366417
+!Platform_sample_id = GSM1366418
+!Platform_sample_id = GSM1366419
+!Platform_sample_id = GSM1366420
+!Platform_sample_id = GSM1366421
+!Platform_sample_id = GSM1366422
+!Platform_sample_id = GSM1366423
+!Platform_sample_id = GSM1366424
+!Platform_sample_id = GSM1366425
+!Platform_sample_id = GSM1366426
+!Platform_sample_id = GSM1402285
+!Platform_sample_id = GSM1402286
+!Platform_sample_id = GSM1402287
+!Platform_sample_id = GSM1402288
+!Platform_sample_id = GSM1402289
+!Platform_sample_id = GSM1402290
+!Platform_sample_id = GSM1402291
+!Platform_sample_id = GSM1402292
+!Platform_sample_id = GSM1402293
+!Platform_sample_id = GSM1402294
+!Platform_sample_id = GSM1562349
+!Platform_sample_id = GSM1562350
+!Platform_sample_id = GSM1562351
+!Platform_sample_id = GSM1562352
+!Platform_sample_id = GSM1562353
+!Platform_sample_id = GSM1562354
+!Platform_sample_id = GSM1562355
+!Platform_sample_id = GSM1562356
+!Platform_sample_id = GSM1562357
+!Platform_sample_id = GSM1562358
+!Platform_sample_id = GSM1568623
+!Platform_sample_id = GSM1568624
+!Platform_sample_id = GSM1568625
+!Platform_sample_id = GSM1568626
+!Platform_sample_id = GSM1568627
+!Platform_sample_id = GSM1568628
+!Platform_sample_id = GSM1568629
+!Platform_sample_id = GSM1568630
+!Platform_sample_id = GSM1568631
+!Platform_sample_id = GSM1568632
+!Platform_sample_id = GSM1568633
+!Platform_sample_id = GSM1568634
+!Platform_sample_id = GSM1568635
+!Platform_sample_id = GSM1568636
+!Platform_sample_id = GSM1568637
+!Platform_sample_id = GSM1568638
+!Platform_sample_id = GSM1568639
+!Platform_sample_id = GSM1568640
+!Platform_sample_id = GSM1568641
+!Platform_sample_id = GSM1568642
+!Platform_sample_id = GSM1568643
+!Platform_sample_id = GSM1568644
+!Platform_sample_id = GSM1568645
+!Platform_sample_id = GSM1568646
+!Platform_sample_id = GSM1568647
+!Platform_sample_id = GSM1568648
+!Platform_sample_id = GSM1568649
+!Platform_sample_id = GSM1568650
+!Platform_sample_id = GSM1568651
+!Platform_sample_id = GSM1568652
+!Platform_sample_id = GSM1568653
+!Platform_sample_id = GSM1568654
+!Platform_sample_id = GSM1568655
+!Platform_sample_id = GSM1568656
+!Platform_sample_id = GSM1568657
+!Platform_sample_id = GSM1568658
+!Platform_sample_id = GSM1568659
+!Platform_sample_id = GSM1568660
+!Platform_sample_id = GSM1568661
+!Platform_sample_id = GSM1568662
+!Platform_sample_id = GSM1568663
+!Platform_sample_id = GSM1568664
+!Platform_sample_id = GSM1568665
+!Platform_sample_id = GSM1568666
+!Platform_sample_id = GSM1568667
+!Platform_sample_id = GSM1568668
+!Platform_sample_id = GSM1568669
+!Platform_sample_id = GSM1568670
+!Platform_sample_id = GSM1568671
+!Platform_sample_id = GSM1568672
+!Platform_sample_id = GSM1568673
+!Platform_sample_id = GSM1568674
+!Platform_sample_id = GSM1568675
+!Platform_sample_id = GSM1568676
+!Platform_sample_id = GSM1635147
+!Platform_sample_id = GSM1635148
+!Platform_sample_id = GSM1635149
+!Platform_sample_id = GSM1635150
+!Platform_sample_id = GSM1635151
+!Platform_sample_id = GSM1635152
+!Platform_sample_id = GSM1635153
+!Platform_sample_id = GSM1635154
+!Platform_sample_id = GSM1635155
+!Platform_sample_id = GSM1635156
+!Platform_sample_id = GSM1635157
+!Platform_sample_id = GSM1635158
+!Platform_sample_id = GSM1635159
+!Platform_sample_id = GSM1635160
+!Platform_sample_id = GSM1635161
+!Platform_sample_id = GSM1635162
+!Platform_sample_id = GSM1635163
+!Platform_sample_id = GSM1635164
+!Platform_sample_id = GSM1635165
+!Platform_sample_id = GSM1635166
+!Platform_sample_id = GSM1635167
+!Platform_sample_id = GSM1635168
+!Platform_sample_id = GSM1635169
+!Platform_sample_id = GSM1635170
+!Platform_sample_id = GSM1635171
+!Platform_sample_id = GSM1635172
+!Platform_sample_id = GSM1635173
+!Platform_sample_id = GSM1635174
+!Platform_sample_id = GSM1635175
+!Platform_sample_id = GSM1646417
+!Platform_sample_id = GSM1646418
+!Platform_sample_id = GSM1646419
+!Platform_sample_id = GSM1652472
+!Platform_sample_id = GSM1652473
+!Platform_sample_id = GSM1652474
+!Platform_sample_id = GSM1652475
+!Platform_sample_id = GSM1652476
+!Platform_sample_id = GSM1652477
+!Platform_sample_id = GSM1652478
+!Platform_sample_id = GSM1652479
+!Platform_sample_id = GSM1652480
+!Platform_sample_id = GSM1652481
+!Platform_sample_id = GSM1652482
+!Platform_sample_id = GSM1652483
+!Platform_sample_id = GSM1652484
+!Platform_sample_id = GSM1652485
+!Platform_sample_id = GSM1652486
+!Platform_sample_id = GSM1652487
+!Platform_sample_id = GSM1652488
+!Platform_sample_id = GSM1652489
+!Platform_sample_id = GSM1652490
+!Platform_sample_id = GSM1652491
+!Platform_sample_id = GSM1652492
+!Platform_sample_id = GSM1695154
+!Platform_sample_id = GSM1695155
+!Platform_sample_id = GSM1695156
+!Platform_sample_id = GSM1695157
+!Platform_sample_id = GSM1695158
+!Platform_sample_id = GSM1695159
+!Platform_sample_id = GSM1695160
+!Platform_sample_id = GSM1695161
+!Platform_sample_id = GSM1924719
+!Platform_sample_id = GSM1924720
+!Platform_sample_id = GSM1924721
+!Platform_sample_id = GSM1924722
+!Platform_sample_id = GSM1955410
+!Platform_sample_id = GSM1955411
+!Platform_sample_id = GSM1955412
+!Platform_sample_id = GSM1955413
+!Platform_sample_id = GSM2040717
+!Platform_sample_id = GSM2040718
+!Platform_sample_id = GSM2043822
+!Platform_sample_id = GSM2043823
+!Platform_sample_id = GSM2043824
+!Platform_sample_id = GSM2043825
+!Platform_sample_id = GSM2043826
+!Platform_sample_id = GSM2043827
+!Platform_sample_id = GSM2043828
+!Platform_sample_id = GSM2043829
+!Platform_sample_id = GSM2228958
+!Platform_sample_id = GSM2228959
+!Platform_sample_id = GSM2228960
+!Platform_sample_id = GSM2228961
+!Platform_sample_id = GSM2228962
+!Platform_sample_id = GSM2228963
+!Platform_sample_id = GSM2228964
+!Platform_sample_id = GSM2228965
+!Platform_sample_id = GSM2228966
+!Platform_sample_id = GSM2228967
+!Platform_sample_id = GSM2228968
+!Platform_sample_id = GSM2228969
+!Platform_sample_id = GSM2228970
+!Platform_sample_id = GSM2228971
+!Platform_sample_id = GSM2228972
+!Platform_sample_id = GSM2228973
+!Platform_sample_id = GSM2228974
+!Platform_sample_id = GSM2228975
+!Platform_sample_id = GSM2228976
+!Platform_sample_id = GSM2228977
+!Platform_sample_id = GSM2228978
+!Platform_sample_id = GSM2228979
+!Platform_sample_id = GSM2228980
+!Platform_sample_id = GSM2228981
+!Platform_sample_id = GSM2386524
+!Platform_sample_id = GSM2386525
+!Platform_sample_id = GSM2386526
+!Platform_sample_id = GSM2386527
+!Platform_sample_id = GSM2386528
+!Platform_sample_id = GSM2386529
+!Platform_sample_id = GSM2386530
+!Platform_sample_id = GSM2386531
+!Platform_sample_id = GSM2386532
+!Platform_sample_id = GSM2386533
+!Platform_sample_id = GSM2386534
+!Platform_sample_id = GSM2386535
+!Platform_sample_id = GSM2386536
+!Platform_sample_id = GSM2386537
+!Platform_sample_id = GSM2386538
+!Platform_sample_id = GSM2386539
+!Platform_sample_id = GSM2386540
+!Platform_sample_id = GSM2386541
+!Platform_sample_id = GSM2386542
+!Platform_sample_id = GSM2386543
+!Platform_sample_id = GSM2386544
+!Platform_sample_id = GSM2386545
+!Platform_sample_id = GSM2386546
+!Platform_sample_id = GSM2386547
+!Platform_sample_id = GSM2386548
+!Platform_sample_id = GSM2386549
+!Platform_sample_id = GSM2942681
+!Platform_sample_id = GSM2942682
+!Platform_sample_id = GSM2942683
+!Platform_sample_id = GSM2942684
+!Platform_sample_id = GSM2942685
+!Platform_sample_id = GSM2942686
+!Platform_sample_id = GSM2942687
+!Platform_sample_id = GSM2942688
+!Platform_sample_id = GSM2942689
+!Platform_sample_id = GSM2942690
+!Platform_sample_id = GSM2942691
+!Platform_sample_id = GSM2942692
+!Platform_sample_id = GSM2942693
+!Platform_sample_id = GSM2942694
+!Platform_sample_id = GSM2942695
+!Platform_sample_id = GSM2942696
+!Platform_sample_id = GSM2942697
+!Platform_sample_id = GSM2942698
+!Platform_sample_id = GSM2942699
+!Platform_sample_id = GSM2942700
+!Platform_sample_id = GSM2942701
+!Platform_sample_id = GSM2942702
+!Platform_sample_id = GSM2942703
+!Platform_sample_id = GSM2942704
+!Platform_sample_id = GSM2942705
+!Platform_sample_id = GSM2942706
+!Platform_sample_id = GSM2942707
+!Platform_sample_id = GSM2942708
+!Platform_sample_id = GSM2942709
+!Platform_series_id = GSE14985
+!Platform_series_id = GSE15036
+!Platform_series_id = GSE15076
+!Platform_series_id = GSE15144
+!Platform_series_id = GSE15977
+!Platform_series_id = GSE16444
+!Platform_series_id = GSE17498
+!Platform_series_id = GSE19232
+!Platform_series_id = GSE19347
+!Platform_series_id = GSE19350
+!Platform_series_id = GSE19505
+!Platform_series_id = GSE19536
+!Platform_series_id = GSE19783
+!Platform_series_id = GSE19856
+!Platform_series_id = GSE20077
+!Platform_series_id = GSE20120
+!Platform_series_id = GSE21032
+!Platform_series_id = GSE21036
+!Platform_series_id = GSE21687
+!Platform_series_id = GSE22141
+!Platform_series_id = GSE22147
+!Platform_series_id = GSE24022
+!Platform_series_id = GSE24485
+!Platform_series_id = GSE24548
+!Platform_series_id = GSE24591
+!Platform_series_id = GSE26157
+!Platform_series_id = GSE26158
+!Platform_series_id = GSE26659
+!Platform_series_id = GSE26666
+!Platform_series_id = GSE27156
+!Platform_series_id = GSE27430
+!Platform_series_id = GSE27561
+!Platform_series_id = GSE27997
+!Platform_series_id = GSE28423
+!Platform_series_id = GSE28425
+!Platform_series_id = GSE28547
+!Platform_series_id = GSE28745
+!Platform_series_id = GSE28954
+!Platform_series_id = GSE29542
+!Platform_series_id = GSE29742
+!Platform_series_id = GSE30894
+!Platform_series_id = GSE31376
+!Platform_series_id = GSE31377
+!Platform_series_id = GSE31824
+!Platform_series_id = GSE31910
+!Platform_series_id = GSE32035
+!Platform_series_id = GSE34981
+!Platform_series_id = GSE34985
+!Platform_series_id = GSE35602
+!Platform_series_id = GSE36121
+!Platform_series_id = GSE36137
+!Platform_series_id = GSE37053
+!Platform_series_id = GSE40355
+!Platform_series_id = GSE40525
+!Platform_series_id = GSE40533
+!Platform_series_id = GSE40571
+!Platform_series_id = GSE40807
+!Platform_series_id = GSE42593
+!Platform_series_id = GSE42614
+!Platform_series_id = GSE44265
+!Platform_series_id = GSE44266
+!Platform_series_id = GSE45146
+!Platform_series_id = GSE46934
+!Platform_series_id = GSE47532
+!Platform_series_id = GSE47534
+!Platform_series_id = GSE47610
+!Platform_series_id = GSE49470
+!Platform_series_id = GSE51233
+!Platform_series_id = GSE51527
+!Platform_series_id = GSE51529
+!Platform_series_id = GSE55846
+!Platform_series_id = GSE56655
+!Platform_series_id = GSE56656
+!Platform_series_id = GSE57400
+!Platform_series_id = GSE57418
+!Platform_series_id = GSE58139
+!Platform_series_id = GSE64011
+!Platform_series_id = GSE64318
+!Platform_series_id = GSE64333
+!Platform_series_id = GSE66968
+!Platform_series_id = GSE67411
+!Platform_series_id = GSE67635
+!Platform_series_id = GSE67638
+!Platform_series_id = GSE69191
+!Platform_series_id = GSE74632
+!Platform_series_id = GSE74635
+!Platform_series_id = GSE75455
+!Platform_series_id = GSE76920
+!Platform_series_id = GSE76921
+!Platform_series_id = GSE77090
+!Platform_series_id = GSE84200
+!Platform_series_id = GSE84201
+!Platform_series_id = GSE89671
+!Platform_series_id = GSE109421
+!Platform_data_row_count = 881
+#ID = 
+#ControlType = 
+#ORGANISM = 
+#miRNA_ID = 
+#SPOT_ID = 
+#SPOT_ID = 
+!platform_table_begin
+ID	ControlType	ORGANISM	miRNA_ID	SPOT_ID	SPOT_ID
+hsa-let-7a	0	Homo sapiens	hsa-let-7a		
+hsa-let-7a*	0	Homo sapiens	hsa-let-7a*		
+hsa-let-7b	0	Homo sapiens	hsa-let-7b		
+hsa-let-7b*	0	Homo sapiens	hsa-let-7b*		
+hsa-let-7c	0	Homo sapiens	hsa-let-7c		
+hsa-let-7c*	0	Homo sapiens	hsa-let-7c*		
+hsa-let-7d	0	Homo sapiens	hsa-let-7d		
+hsa-let-7d*	0	Homo sapiens	hsa-let-7d*		
+hsa-let-7e	0	Homo sapiens	hsa-let-7e		
+hsa-let-7e*	0	Homo sapiens	hsa-let-7e*		
+hsa-let-7f	0	Homo sapiens	hsa-let-7f		
+hsa-let-7f-1*	0	Homo sapiens	hsa-let-7f-1*		
+hsa-let-7f-2*	0	Homo sapiens	hsa-let-7f-2*		
+hsa-let-7g	0	Homo sapiens	hsa-let-7g		
+hsa-let-7g*	0	Homo sapiens	hsa-let-7g*		
+hsa-let-7i	0	Homo sapiens	hsa-let-7i		
+hsa-let-7i*	0	Homo sapiens	hsa-let-7i*		
+hsa-miR-1	0	Homo sapiens	hsa-miR-1		
+hsa-miR-100	0	Homo sapiens	hsa-miR-100		
+hsa-miR-100*	0	Homo sapiens	hsa-miR-100*		
+hsa-miR-101	0	Homo sapiens	hsa-miR-101		
+hsa-miR-101*	0	Homo sapiens	hsa-miR-101*		
+hsa-miR-103	0	Homo sapiens	hsa-miR-103		
+hsa-miR-105	0	Homo sapiens	hsa-miR-105		
+hsa-miR-105*	0	Homo sapiens	hsa-miR-105*		
+hsa-miR-106a	0	Homo sapiens	hsa-miR-106a		
+hsa-miR-106a*	0	Homo sapiens	hsa-miR-106a*		
+hsa-miR-106b	0	Homo sapiens	hsa-miR-106b		
+hsa-miR-106b*	0	Homo sapiens	hsa-miR-106b*		
+hsa-miR-107	0	Homo sapiens	hsa-miR-107		
+hsa-miR-10a	0	Homo sapiens	hsa-miR-10a		
+hsa-miR-10a*	0	Homo sapiens	hsa-miR-10a*		
+hsa-miR-10b	0	Homo sapiens	hsa-miR-10b		
+hsa-miR-10b*	0	Homo sapiens	hsa-miR-10b*		
+hsa-miR-122	0	Homo sapiens	hsa-miR-122		
+hsa-miR-122*	0	Homo sapiens	hsa-miR-122*		
+hsa-miR-1224-3p	0	Homo sapiens	hsa-miR-1224-3p		
+hsa-miR-1224-5p	0	Homo sapiens	hsa-miR-1224-5p		
+hsa-miR-1225-3p	0	Homo sapiens	hsa-miR-1225-3p		
+hsa-miR-1225-5p	0	Homo sapiens	hsa-miR-1225-5p		
+hsa-miR-1226	0	Homo sapiens	hsa-miR-1226		
+hsa-miR-1226*	0	Homo sapiens	hsa-miR-1226*		
+hsa-miR-1227	0	Homo sapiens	hsa-miR-1227		
+hsa-miR-1228	0	Homo sapiens	hsa-miR-1228		
+hsa-miR-1228*	0	Homo sapiens	hsa-miR-1228*		
+hsa-miR-1229	0	Homo sapiens	hsa-miR-1229		
+hsa-miR-1231	0	Homo sapiens	hsa-miR-1231		
+hsa-miR-1233	0	Homo sapiens	hsa-miR-1233		
+hsa-miR-1234	0	Homo sapiens	hsa-miR-1234		
+hsa-miR-1236	0	Homo sapiens	hsa-miR-1236		
+hsa-miR-1237	0	Homo sapiens	hsa-miR-1237		
+hsa-miR-1238	0	Homo sapiens	hsa-miR-1238		
+hsa-miR-124	0	Homo sapiens	hsa-miR-124		
+hsa-miR-124*	0	Homo sapiens	hsa-miR-124*		
+hsa-miR-125a-3p	0	Homo sapiens	hsa-miR-125a-3p		
+hsa-miR-125a-5p	0	Homo sapiens	hsa-miR-125a-5p		
+hsa-miR-125b	0	Homo sapiens	hsa-miR-125b		
+hsa-miR-125b-1*	0	Homo sapiens	hsa-miR-125b-1*		
+hsa-miR-125b-2*	0	Homo sapiens	hsa-miR-125b-2*		
+hsa-miR-126	0	Homo sapiens	hsa-miR-126		
+hsa-miR-126*	0	Homo sapiens	hsa-miR-126*		
+hsa-miR-127-3p	0	Homo sapiens	hsa-miR-127-3p		
+hsa-miR-127-5p	0	Homo sapiens	hsa-miR-127-5p		
+hsa-miR-128	0	Homo sapiens	hsa-miR-128		
+hsa-miR-129*	0	Homo sapiens	hsa-miR-129*		
+hsa-miR-129-3p	0	Homo sapiens	hsa-miR-129-3p		
+hsa-miR-129-5p	0	Homo sapiens	hsa-miR-129-5p		
+hsa-miR-130a	0	Homo sapiens	hsa-miR-130a		
+hsa-miR-130a*	0	Homo sapiens	hsa-miR-130a*		
+hsa-miR-130b	0	Homo sapiens	hsa-miR-130b		
+hsa-miR-130b*	0	Homo sapiens	hsa-miR-130b*		
+hsa-miR-132	0	Homo sapiens	hsa-miR-132		
+hsa-miR-132*	0	Homo sapiens	hsa-miR-132*		
+hsa-miR-133a	0	Homo sapiens	hsa-miR-133a		
+hsa-miR-133b	0	Homo sapiens	hsa-miR-133b		
+hsa-miR-134	0	Homo sapiens	hsa-miR-134		
+hsa-miR-135a	0	Homo sapiens	hsa-miR-135a		
+hsa-miR-135a*	0	Homo sapiens	hsa-miR-135a*		
+hsa-miR-135b	0	Homo sapiens	hsa-miR-135b		
+hsa-miR-135b*	0	Homo sapiens	hsa-miR-135b*		
+hsa-miR-136	0	Homo sapiens	hsa-miR-136		
+hsa-miR-136*	0	Homo sapiens	hsa-miR-136*		
+hsa-miR-137	0	Homo sapiens	hsa-miR-137		
+hsa-miR-138	0	Homo sapiens	hsa-miR-138		
+hsa-miR-138-1*	0	Homo sapiens	hsa-miR-138-1*		
+hsa-miR-138-2*	0	Homo sapiens	hsa-miR-138-2*		
+hsa-miR-139-3p	0	Homo sapiens	hsa-miR-139-3p		
+hsa-miR-139-5p	0	Homo sapiens	hsa-miR-139-5p		
+hsa-miR-140-3p	0	Homo sapiens	hsa-miR-140-3p		
+hsa-miR-140-5p	0	Homo sapiens	hsa-miR-140-5p		
+hsa-miR-141	0	Homo sapiens	hsa-miR-141		
+hsa-miR-141*	0	Homo sapiens	hsa-miR-141*		
+hsa-miR-142-3p	0	Homo sapiens	hsa-miR-142-3p		
+hsa-miR-142-5p	0	Homo sapiens	hsa-miR-142-5p		
+hsa-miR-143	0	Homo sapiens	hsa-miR-143		
+hsa-miR-143*	0	Homo sapiens	hsa-miR-143*		
+hsa-miR-144	0	Homo sapiens	hsa-miR-144		
+hsa-miR-144*	0	Homo sapiens	hsa-miR-144*		
+hsa-miR-145	0	Homo sapiens	hsa-miR-145		
+hsa-miR-145*	0	Homo sapiens	hsa-miR-145*		
+hsa-miR-146a	0	Homo sapiens	hsa-miR-146a		
+hsa-miR-146a*	0	Homo sapiens	hsa-miR-146a*		
+hsa-miR-146b-3p	0	Homo sapiens	hsa-miR-146b-3p		
+hsa-miR-146b-5p	0	Homo sapiens	hsa-miR-146b-5p		
+hsa-miR-147	0	Homo sapiens	hsa-miR-147		
+hsa-miR-147b	0	Homo sapiens	hsa-miR-147b		
+hsa-miR-148a	0	Homo sapiens	hsa-miR-148a		
+hsa-miR-148a*	0	Homo sapiens	hsa-miR-148a*		
+hsa-miR-148b	0	Homo sapiens	hsa-miR-148b		
+hsa-miR-148b*	0	Homo sapiens	hsa-miR-148b*		
+hsa-miR-149	0	Homo sapiens	hsa-miR-149		
+hsa-miR-149*	0	Homo sapiens	hsa-miR-149*		
+hsa-miR-150	0	Homo sapiens	hsa-miR-150		
+hsa-miR-150*	0	Homo sapiens	hsa-miR-150*		
+hsa-miR-151-3p	0	Homo sapiens	hsa-miR-151-3p		
+hsa-miR-151-5p	0	Homo sapiens	hsa-miR-151-5p		
+hsa-miR-152	0	Homo sapiens	hsa-miR-152		
+hsa-miR-153	0	Homo sapiens	hsa-miR-153		
+hsa-miR-154	0	Homo sapiens	hsa-miR-154		
+hsa-miR-154*	0	Homo sapiens	hsa-miR-154*		
+hsa-miR-155	0	Homo sapiens	hsa-miR-155		
+hsa-miR-155*	0	Homo sapiens	hsa-miR-155*		
+hsa-miR-15a	0	Homo sapiens	hsa-miR-15a		
+hsa-miR-15a*	0	Homo sapiens	hsa-miR-15a*		
+hsa-miR-15b	0	Homo sapiens	hsa-miR-15b		
+hsa-miR-15b*	0	Homo sapiens	hsa-miR-15b*		
+hsa-miR-16	0	Homo sapiens	hsa-miR-16		
+hsa-miR-16-1*	0	Homo sapiens	hsa-miR-16-1*		
+hsa-miR-16-2*	0	Homo sapiens	hsa-miR-16-2*		
+hsa-miR-17	0	Homo sapiens	hsa-miR-17		
+hsa-miR-17*	0	Homo sapiens	hsa-miR-17*		
+hsa-miR-181a	0	Homo sapiens	hsa-miR-181a		
+hsa-miR-181a*	0	Homo sapiens	hsa-miR-181a*		
+hsa-miR-181a-2*	0	Homo sapiens	hsa-miR-181a-2*		
+hsa-miR-181b	0	Homo sapiens	hsa-miR-181b		
+hsa-miR-181c	0	Homo sapiens	hsa-miR-181c		
+hsa-miR-181c*	0	Homo sapiens	hsa-miR-181c*		
+hsa-miR-181d	0	Homo sapiens	hsa-miR-181d		
+hsa-miR-182	0	Homo sapiens	hsa-miR-182		
+hsa-miR-182*	0	Homo sapiens	hsa-miR-182*		
+hsa-miR-183	0	Homo sapiens	hsa-miR-183		
+hsa-miR-183*	0	Homo sapiens	hsa-miR-183*		
+hsa-miR-184	0	Homo sapiens	hsa-miR-184		
+hsa-miR-185	0	Homo sapiens	hsa-miR-185		
+hsa-miR-185*	0	Homo sapiens	hsa-miR-185*		
+hsa-miR-186	0	Homo sapiens	hsa-miR-186		
+hsa-miR-186*	0	Homo sapiens	hsa-miR-186*		
+hsa-miR-187	0	Homo sapiens	hsa-miR-187		
+hsa-miR-187*	0	Homo sapiens	hsa-miR-187*		
+hsa-miR-188-3p	0	Homo sapiens	hsa-miR-188-3p		
+hsa-miR-188-5p	0	Homo sapiens	hsa-miR-188-5p		
+hsa-miR-18a	0	Homo sapiens	hsa-miR-18a		
+hsa-miR-18a*	0	Homo sapiens	hsa-miR-18a*		
+hsa-miR-18b	0	Homo sapiens	hsa-miR-18b		
+hsa-miR-18b*	0	Homo sapiens	hsa-miR-18b*		
+hsa-miR-190	0	Homo sapiens	hsa-miR-190		
+hsa-miR-190b	0	Homo sapiens	hsa-miR-190b		
+hsa-miR-191	0	Homo sapiens	hsa-miR-191		
+hsa-miR-191*	0	Homo sapiens	hsa-miR-191*		
+hsa-miR-192	0	Homo sapiens	hsa-miR-192		
+hsa-miR-192*	0	Homo sapiens	hsa-miR-192*		
+hsa-miR-193a-3p	0	Homo sapiens	hsa-miR-193a-3p		
+hsa-miR-193a-5p	0	Homo sapiens	hsa-miR-193a-5p		
+hsa-miR-193b	0	Homo sapiens	hsa-miR-193b		
+hsa-miR-193b*	0	Homo sapiens	hsa-miR-193b*		
+hsa-miR-194	0	Homo sapiens	hsa-miR-194		
+hsa-miR-194*	0	Homo sapiens	hsa-miR-194*		
+hsa-miR-195	0	Homo sapiens	hsa-miR-195		
+hsa-miR-195*	0	Homo sapiens	hsa-miR-195*		
+hsa-miR-196a	0	Homo sapiens	hsa-miR-196a		
+hsa-miR-196a*	0	Homo sapiens	hsa-miR-196a*		
+hsa-miR-196b	0	Homo sapiens	hsa-miR-196b		
+hsa-miR-197	0	Homo sapiens	hsa-miR-197		
+hsa-miR-198	0	Homo sapiens	hsa-miR-198		
+hsa-miR-199a-5p	0	Homo sapiens	hsa-miR-199a-5p		
+hsa-miR-199b-3p	0	Homo sapiens	hsa-miR-199b-3p		
+hsa-miR-199b-5p	0	Homo sapiens	hsa-miR-199b-5p		
+hsa-miR-19a	0	Homo sapiens	hsa-miR-19a		
+hsa-miR-19a*	0	Homo sapiens	hsa-miR-19a*		
+hsa-miR-19b	0	Homo sapiens	hsa-miR-19b		
+hsa-miR-19b-1*	0	Homo sapiens	hsa-miR-19b-1*		
+hsa-miR-19b-2*	0	Homo sapiens	hsa-miR-19b-2*		
+hsa-miR-200a	0	Homo sapiens	hsa-miR-200a		
+hsa-miR-200a*	0	Homo sapiens	hsa-miR-200a*		
+hsa-miR-200b	0	Homo sapiens	hsa-miR-200b		
+hsa-miR-200b*	0	Homo sapiens	hsa-miR-200b*		
+hsa-miR-200c	0	Homo sapiens	hsa-miR-200c		
+hsa-miR-200c*	0	Homo sapiens	hsa-miR-200c*		
+hsa-miR-202	0	Homo sapiens	hsa-miR-202		
+hsa-miR-202*	0	Homo sapiens	hsa-miR-202*		
+hsa-miR-203	0	Homo sapiens	hsa-miR-203		
+hsa-miR-204	0	Homo sapiens	hsa-miR-204		
+hsa-miR-205	0	Homo sapiens	hsa-miR-205		
+hsa-miR-206	0	Homo sapiens	hsa-miR-206		
+hsa-miR-208a	0	Homo sapiens	hsa-miR-208a		
+hsa-miR-208b	0	Homo sapiens	hsa-miR-208b		
+hsa-miR-20a	0	Homo sapiens	hsa-miR-20a		
+hsa-miR-20a*	0	Homo sapiens	hsa-miR-20a*		
+hsa-miR-20b	0	Homo sapiens	hsa-miR-20b		
+hsa-miR-20b*	0	Homo sapiens	hsa-miR-20b*		
+hsa-miR-21	0	Homo sapiens	hsa-miR-21		
+hsa-miR-21*	0	Homo sapiens	hsa-miR-21*		
+hsa-miR-210	0	Homo sapiens	hsa-miR-210		
+hsa-miR-211	0	Homo sapiens	hsa-miR-211		
+hsa-miR-212	0	Homo sapiens	hsa-miR-212		
+hsa-miR-214	0	Homo sapiens	hsa-miR-214		
+hsa-miR-214*	0	Homo sapiens	hsa-miR-214*		
+hsa-miR-215	0	Homo sapiens	hsa-miR-215		
+hsa-miR-216a	0	Homo sapiens	hsa-miR-216a		
+hsa-miR-216b	0	Homo sapiens	hsa-miR-216b		
+hsa-miR-217	0	Homo sapiens	hsa-miR-217		
+hsa-miR-218	0	Homo sapiens	hsa-miR-218		
+hsa-miR-218-1*	0	Homo sapiens	hsa-miR-218-1*		
+hsa-miR-218-2*	0	Homo sapiens	hsa-miR-218-2*		
+hsa-miR-219-1-3p	0	Homo sapiens	hsa-miR-219-1-3p		
+hsa-miR-219-2-3p	0	Homo sapiens	hsa-miR-219-2-3p		
+hsa-miR-219-5p	0	Homo sapiens	hsa-miR-219-5p		
+hsa-miR-22	0	Homo sapiens	hsa-miR-22		
+hsa-miR-22*	0	Homo sapiens	hsa-miR-22*		
+hsa-miR-220a	0	Homo sapiens	hsa-miR-220a		
+hsa-miR-220b	0	Homo sapiens	hsa-miR-220b		
+hsa-miR-220c	0	Homo sapiens	hsa-miR-220c		
+hsa-miR-221	0	Homo sapiens	hsa-miR-221		
+hsa-miR-221*	0	Homo sapiens	hsa-miR-221*		
+hsa-miR-222	0	Homo sapiens	hsa-miR-222		
+hsa-miR-222*	0	Homo sapiens	hsa-miR-222*		
+hsa-miR-223	0	Homo sapiens	hsa-miR-223		
+hsa-miR-223*	0	Homo sapiens	hsa-miR-223*		
+hsa-miR-224	0	Homo sapiens	hsa-miR-224		
+hsa-miR-23a	0	Homo sapiens	hsa-miR-23a		
+hsa-miR-23a*	0	Homo sapiens	hsa-miR-23a*		
+hsa-miR-23b	0	Homo sapiens	hsa-miR-23b		
+hsa-miR-23b*	0	Homo sapiens	hsa-miR-23b*		
+hsa-miR-24	0	Homo sapiens	hsa-miR-24		
+hsa-miR-24-1*	0	Homo sapiens	hsa-miR-24-1*		
+hsa-miR-24-2*	0	Homo sapiens	hsa-miR-24-2*		
+hsa-miR-25	0	Homo sapiens	hsa-miR-25		
+hsa-miR-25*	0	Homo sapiens	hsa-miR-25*		
+hsa-miR-26a	0	Homo sapiens	hsa-miR-26a		
+hsa-miR-26a-1*	0	Homo sapiens	hsa-miR-26a-1*		
+hsa-miR-26a-2*	0	Homo sapiens	hsa-miR-26a-2*		
+hsa-miR-26b	0	Homo sapiens	hsa-miR-26b		
+hsa-miR-26b*	0	Homo sapiens	hsa-miR-26b*		
+hsa-miR-27a	0	Homo sapiens	hsa-miR-27a		
+hsa-miR-27a*	0	Homo sapiens	hsa-miR-27a*		
+hsa-miR-27b	0	Homo sapiens	hsa-miR-27b		
+hsa-miR-27b*	0	Homo sapiens	hsa-miR-27b*		
+hsa-miR-28-3p	0	Homo sapiens	hsa-miR-28-3p		
+hsa-miR-28-5p	0	Homo sapiens	hsa-miR-28-5p		
+hsa-miR-296-3p	0	Homo sapiens	hsa-miR-296-3p		
+hsa-miR-296-5p	0	Homo sapiens	hsa-miR-296-5p		
+hsa-miR-297	0	Homo sapiens	hsa-miR-297		
+hsa-miR-298	0	Homo sapiens	hsa-miR-298		
+hsa-miR-299-3p	0	Homo sapiens	hsa-miR-299-3p		
+hsa-miR-299-5p	0	Homo sapiens	hsa-miR-299-5p		
+hsa-miR-29a	0	Homo sapiens	hsa-miR-29a		
+hsa-miR-29a*	0	Homo sapiens	hsa-miR-29a*		
+hsa-miR-29b	0	Homo sapiens	hsa-miR-29b		
+hsa-miR-29b-1*	0	Homo sapiens	hsa-miR-29b-1*		
+hsa-miR-29b-2*	0	Homo sapiens	hsa-miR-29b-2*		
+hsa-miR-29c	0	Homo sapiens	hsa-miR-29c		
+hsa-miR-29c*	0	Homo sapiens	hsa-miR-29c*		
+hsa-miR-300	0	Homo sapiens	hsa-miR-300		
+hsa-miR-301a	0	Homo sapiens	hsa-miR-301a		
+hsa-miR-301b	0	Homo sapiens	hsa-miR-301b		
+hsa-miR-302a	0	Homo sapiens	hsa-miR-302a		
+hsa-miR-302a*	0	Homo sapiens	hsa-miR-302a*		
+hsa-miR-302b	0	Homo sapiens	hsa-miR-302b		
+hsa-miR-302b*	0	Homo sapiens	hsa-miR-302b*		
+hsa-miR-302c	0	Homo sapiens	hsa-miR-302c		
+hsa-miR-302c*	0	Homo sapiens	hsa-miR-302c*		
+hsa-miR-302d	0	Homo sapiens	hsa-miR-302d		
+hsa-miR-302d*	0	Homo sapiens	hsa-miR-302d*		
+hsa-miR-30a	0	Homo sapiens	hsa-miR-30a		
+hsa-miR-30a*	0	Homo sapiens	hsa-miR-30a*		
+hsa-miR-30b	0	Homo sapiens	hsa-miR-30b		
+hsa-miR-30b*	0	Homo sapiens	hsa-miR-30b*		
+hsa-miR-30c	0	Homo sapiens	hsa-miR-30c		
+hsa-miR-30c-1*	0	Homo sapiens	hsa-miR-30c-1*		
+hsa-miR-30c-2*	0	Homo sapiens	hsa-miR-30c-2*		
+hsa-miR-30d	0	Homo sapiens	hsa-miR-30d		
+hsa-miR-30d*	0	Homo sapiens	hsa-miR-30d*		
+hsa-miR-30e	0	Homo sapiens	hsa-miR-30e		
+hsa-miR-30e*	0	Homo sapiens	hsa-miR-30e*		
+hsa-miR-31	0	Homo sapiens	hsa-miR-31		
+hsa-miR-31*	0	Homo sapiens	hsa-miR-31*		
+hsa-miR-32	0	Homo sapiens	hsa-miR-32		
+hsa-miR-32*	0	Homo sapiens	hsa-miR-32*		
+hsa-miR-320	0	Homo sapiens	hsa-miR-320		
+hsa-miR-323-3p	0	Homo sapiens	hsa-miR-323-3p		
+hsa-miR-323-5p	0	Homo sapiens	hsa-miR-323-5p		
+hsa-miR-324-3p	0	Homo sapiens	hsa-miR-324-3p		
+hsa-miR-324-5p	0	Homo sapiens	hsa-miR-324-5p		
+hsa-miR-325	0	Homo sapiens	hsa-miR-325		
+hsa-miR-326	0	Homo sapiens	hsa-miR-326		
+hsa-miR-328	0	Homo sapiens	hsa-miR-328		
+hsa-miR-329	0	Homo sapiens	hsa-miR-329		
+hsa-miR-330-3p	0	Homo sapiens	hsa-miR-330-3p		
+hsa-miR-330-5p	0	Homo sapiens	hsa-miR-330-5p		
+hsa-miR-331-3p	0	Homo sapiens	hsa-miR-331-3p		
+hsa-miR-331-5p	0	Homo sapiens	hsa-miR-331-5p		
+hsa-miR-335	0	Homo sapiens	hsa-miR-335		
+hsa-miR-335*	0	Homo sapiens	hsa-miR-335*		
+hsa-miR-337-3p	0	Homo sapiens	hsa-miR-337-3p		
+hsa-miR-337-5p	0	Homo sapiens	hsa-miR-337-5p		
+hsa-miR-338-3p	0	Homo sapiens	hsa-miR-338-3p		
+hsa-miR-338-5p	0	Homo sapiens	hsa-miR-338-5p		
+hsa-miR-339-3p	0	Homo sapiens	hsa-miR-339-3p		
+hsa-miR-339-5p	0	Homo sapiens	hsa-miR-339-5p		
+hsa-miR-33a	0	Homo sapiens	hsa-miR-33a		
+hsa-miR-33a*	0	Homo sapiens	hsa-miR-33a*		
+hsa-miR-33b	0	Homo sapiens	hsa-miR-33b		
+hsa-miR-33b*	0	Homo sapiens	hsa-miR-33b*		
+hsa-miR-340	0	Homo sapiens	hsa-miR-340		
+hsa-miR-340*	0	Homo sapiens	hsa-miR-340*		
+hsa-miR-342-3p	0	Homo sapiens	hsa-miR-342-3p		
+hsa-miR-342-5p	0	Homo sapiens	hsa-miR-342-5p		
+hsa-miR-345	0	Homo sapiens	hsa-miR-345		
+hsa-miR-346	0	Homo sapiens	hsa-miR-346		
+hsa-miR-34a	0	Homo sapiens	hsa-miR-34a		
+hsa-miR-34a*	0	Homo sapiens	hsa-miR-34a*		
+hsa-miR-34b	0	Homo sapiens	hsa-miR-34b		
+hsa-miR-34b*	0	Homo sapiens	hsa-miR-34b*		
+hsa-miR-34c-3p	0	Homo sapiens	hsa-miR-34c-3p		
+hsa-miR-34c-5p	0	Homo sapiens	hsa-miR-34c-5p		
+hsa-miR-361-3p	0	Homo sapiens	hsa-miR-361-3p		
+hsa-miR-361-5p	0	Homo sapiens	hsa-miR-361-5p		
+hsa-miR-362-3p	0	Homo sapiens	hsa-miR-362-3p		
+hsa-miR-362-5p	0	Homo sapiens	hsa-miR-362-5p		
+hsa-miR-363	0	Homo sapiens	hsa-miR-363		
+hsa-miR-363*	0	Homo sapiens	hsa-miR-363*		
+hsa-miR-365	0	Homo sapiens	hsa-miR-365		
+hsa-miR-367	0	Homo sapiens	hsa-miR-367		
+hsa-miR-367*	0	Homo sapiens	hsa-miR-367*		
+hsa-miR-369-3p	0	Homo sapiens	hsa-miR-369-3p		
+hsa-miR-369-5p	0	Homo sapiens	hsa-miR-369-5p		
+hsa-miR-370	0	Homo sapiens	hsa-miR-370		
+hsa-miR-371-3p	0	Homo sapiens	hsa-miR-371-3p		
+hsa-miR-371-5p	0	Homo sapiens	hsa-miR-371-5p		
+hsa-miR-372	0	Homo sapiens	hsa-miR-372		
+hsa-miR-373	0	Homo sapiens	hsa-miR-373		
+hsa-miR-373*	0	Homo sapiens	hsa-miR-373*		
+hsa-miR-374a	0	Homo sapiens	hsa-miR-374a		
+hsa-miR-374a*	0	Homo sapiens	hsa-miR-374a*		
+hsa-miR-374b	0	Homo sapiens	hsa-miR-374b		
+hsa-miR-374b*	0	Homo sapiens	hsa-miR-374b*		
+hsa-miR-375	0	Homo sapiens	hsa-miR-375		
+hsa-miR-376a	0	Homo sapiens	hsa-miR-376a		
+hsa-miR-376a*	0	Homo sapiens	hsa-miR-376a*		
+hsa-miR-376b	0	Homo sapiens	hsa-miR-376b		
+hsa-miR-376c	0	Homo sapiens	hsa-miR-376c		
+hsa-miR-377	0	Homo sapiens	hsa-miR-377		
+hsa-miR-377*	0	Homo sapiens	hsa-miR-377*		
+hsa-miR-378	0	Homo sapiens	hsa-miR-378		
+hsa-miR-378*	0	Homo sapiens	hsa-miR-378*		
+hsa-miR-379	0	Homo sapiens	hsa-miR-379		
+hsa-miR-379*	0	Homo sapiens	hsa-miR-379*		
+hsa-miR-380	0	Homo sapiens	hsa-miR-380		
+hsa-miR-380*	0	Homo sapiens	hsa-miR-380*		
+hsa-miR-381	0	Homo sapiens	hsa-miR-381		
+hsa-miR-382	0	Homo sapiens	hsa-miR-382		
+hsa-miR-383	0	Homo sapiens	hsa-miR-383		
+hsa-miR-384	0	Homo sapiens	hsa-miR-384		
+hsa-miR-409-3p	0	Homo sapiens	hsa-miR-409-3p		
+hsa-miR-409-5p	0	Homo sapiens	hsa-miR-409-5p		
+hsa-miR-410	0	Homo sapiens	hsa-miR-410		
+hsa-miR-411	0	Homo sapiens	hsa-miR-411		
+hsa-miR-411*	0	Homo sapiens	hsa-miR-411*		
+hsa-miR-412	0	Homo sapiens	hsa-miR-412		
+hsa-miR-421	0	Homo sapiens	hsa-miR-421		
+hsa-miR-422a	0	Homo sapiens	hsa-miR-422a		
+hsa-miR-423-3p	0	Homo sapiens	hsa-miR-423-3p		
+hsa-miR-423-5p	0	Homo sapiens	hsa-miR-423-5p		
+hsa-miR-424	0	Homo sapiens	hsa-miR-424		
+hsa-miR-424*	0	Homo sapiens	hsa-miR-424*		
+hsa-miR-425	0	Homo sapiens	hsa-miR-425		
+hsa-miR-425*	0	Homo sapiens	hsa-miR-425*		
+hsa-miR-429	0	Homo sapiens	hsa-miR-429		
+hsa-miR-431	0	Homo sapiens	hsa-miR-431		
+hsa-miR-431*	0	Homo sapiens	hsa-miR-431*		
+hsa-miR-432	0	Homo sapiens	hsa-miR-432		
+hsa-miR-432*	0	Homo sapiens	hsa-miR-432*		
+hsa-miR-433	0	Homo sapiens	hsa-miR-433		
+hsa-miR-448	0	Homo sapiens	hsa-miR-448		
+hsa-miR-449a	0	Homo sapiens	hsa-miR-449a		
+hsa-miR-449b	0	Homo sapiens	hsa-miR-449b		
+hsa-miR-450a	0	Homo sapiens	hsa-miR-450a		
+hsa-miR-450b-3p	0	Homo sapiens	hsa-miR-450b-3p		
+hsa-miR-450b-5p	0	Homo sapiens	hsa-miR-450b-5p		
+hsa-miR-451	0	Homo sapiens	hsa-miR-451		
+hsa-miR-452	0	Homo sapiens	hsa-miR-452		
+hsa-miR-452*	0	Homo sapiens	hsa-miR-452*		
+hsa-miR-453	0	Homo sapiens	hsa-miR-453		
+hsa-miR-454	0	Homo sapiens	hsa-miR-454		
+hsa-miR-454*	0	Homo sapiens	hsa-miR-454*		
+hsa-miR-455-3p	0	Homo sapiens	hsa-miR-455-3p		
+hsa-miR-455-5p	0	Homo sapiens	hsa-miR-455-5p		
+hsa-miR-483-3p	0	Homo sapiens	hsa-miR-483-3p		
+hsa-miR-483-5p	0	Homo sapiens	hsa-miR-483-5p		
+hsa-miR-484	0	Homo sapiens	hsa-miR-484		
+hsa-miR-485-3p	0	Homo sapiens	hsa-miR-485-3p		
+hsa-miR-485-5p	0	Homo sapiens	hsa-miR-485-5p		
+hsa-miR-486-3p	0	Homo sapiens	hsa-miR-486-3p		
+hsa-miR-486-5p	0	Homo sapiens	hsa-miR-486-5p		
+hsa-miR-487a	0	Homo sapiens	hsa-miR-487a		
+hsa-miR-487b	0	Homo sapiens	hsa-miR-487b		
+hsa-miR-488	0	Homo sapiens	hsa-miR-488		
+hsa-miR-488*	0	Homo sapiens	hsa-miR-488*		
+hsa-miR-489	0	Homo sapiens	hsa-miR-489		
+hsa-miR-490-3p	0	Homo sapiens	hsa-miR-490-3p		
+hsa-miR-490-5p	0	Homo sapiens	hsa-miR-490-5p		
+hsa-miR-491-3p	0	Homo sapiens	hsa-miR-491-3p		
+hsa-miR-491-5p	0	Homo sapiens	hsa-miR-491-5p		
+hsa-miR-492	0	Homo sapiens	hsa-miR-492		
+hsa-miR-493	0	Homo sapiens	hsa-miR-493		
+hsa-miR-493*	0	Homo sapiens	hsa-miR-493*		
+hsa-miR-494	0	Homo sapiens	hsa-miR-494		
+hsa-miR-495	0	Homo sapiens	hsa-miR-495		
+hsa-miR-496	0	Homo sapiens	hsa-miR-496		
+hsa-miR-497	0	Homo sapiens	hsa-miR-497		
+hsa-miR-497*	0	Homo sapiens	hsa-miR-497*		
+hsa-miR-498	0	Homo sapiens	hsa-miR-498		
+hsa-miR-499-3p	0	Homo sapiens	hsa-miR-499-3p		
+hsa-miR-499-5p	0	Homo sapiens	hsa-miR-499-5p		
+hsa-miR-500	0	Homo sapiens	hsa-miR-500		
+hsa-miR-500*	0	Homo sapiens	hsa-miR-500*		
+hsa-miR-501-3p	0	Homo sapiens	hsa-miR-501-3p		
+hsa-miR-501-5p	0	Homo sapiens	hsa-miR-501-5p		
+hsa-miR-502-3p	0	Homo sapiens	hsa-miR-502-3p		
+hsa-miR-502-5p	0	Homo sapiens	hsa-miR-502-5p		
+hsa-miR-503	0	Homo sapiens	hsa-miR-503		
+hsa-miR-504	0	Homo sapiens	hsa-miR-504		
+hsa-miR-505	0	Homo sapiens	hsa-miR-505		
+hsa-miR-505*	0	Homo sapiens	hsa-miR-505*		
+hsa-miR-506	0	Homo sapiens	hsa-miR-506		
+hsa-miR-507	0	Homo sapiens	hsa-miR-507		
+hsa-miR-508-3p	0	Homo sapiens	hsa-miR-508-3p		
+hsa-miR-508-5p	0	Homo sapiens	hsa-miR-508-5p		
+hsa-miR-509-3-5p	0	Homo sapiens	hsa-miR-509-3-5p		
+hsa-miR-509-3p	0	Homo sapiens	hsa-miR-509-3p		
+hsa-miR-509-5p	0	Homo sapiens	hsa-miR-509-5p		
+hsa-miR-510	0	Homo sapiens	hsa-miR-510		
+hsa-miR-511	0	Homo sapiens	hsa-miR-511		
+hsa-miR-512-3p	0	Homo sapiens	hsa-miR-512-3p		
+hsa-miR-512-5p	0	Homo sapiens	hsa-miR-512-5p		
+hsa-miR-513a-3p	0	Homo sapiens	hsa-miR-513a-3p		
+hsa-miR-513a-5p	0	Homo sapiens	hsa-miR-513a-5p		
+hsa-miR-513b	0	Homo sapiens	hsa-miR-513b		
+hsa-miR-513c	0	Homo sapiens	hsa-miR-513c		
+hsa-miR-514	0	Homo sapiens	hsa-miR-514		
+hsa-miR-515-3p	0	Homo sapiens	hsa-miR-515-3p		
+hsa-miR-515-5p	0	Homo sapiens	hsa-miR-515-5p		
+hsa-miR-516a-3p	0	Homo sapiens	hsa-miR-516a-3p		
+hsa-miR-516a-5p	0	Homo sapiens	hsa-miR-516a-5p		
+hsa-miR-516b	0	Homo sapiens	hsa-miR-516b		
+hsa-miR-517*	0	Homo sapiens	hsa-miR-517*		
+hsa-miR-517a	0	Homo sapiens	hsa-miR-517a		
+hsa-miR-517b	0	Homo sapiens	hsa-miR-517b		
+hsa-miR-517c	0	Homo sapiens	hsa-miR-517c		
+hsa-miR-518a-3p	0	Homo sapiens	hsa-miR-518a-3p		
+hsa-miR-518b	0	Homo sapiens	hsa-miR-518b		
+hsa-miR-518c	0	Homo sapiens	hsa-miR-518c		
+hsa-miR-518c*	0	Homo sapiens	hsa-miR-518c*		
+hsa-miR-518d-3p	0	Homo sapiens	hsa-miR-518d-3p		
+hsa-miR-518d-5p	0	Homo sapiens	hsa-miR-518d-5p		
+hsa-miR-518e	0	Homo sapiens	hsa-miR-518e		
+hsa-miR-518e*	0	Homo sapiens	hsa-miR-518e*		
+hsa-miR-518f	0	Homo sapiens	hsa-miR-518f		
+hsa-miR-518f*	0	Homo sapiens	hsa-miR-518f*		
+hsa-miR-519a	0	Homo sapiens	hsa-miR-519a		
+hsa-miR-519b-3p	0	Homo sapiens	hsa-miR-519b-3p		
+hsa-miR-519c-3p	0	Homo sapiens	hsa-miR-519c-3p		
+hsa-miR-519d	0	Homo sapiens	hsa-miR-519d		
+hsa-miR-519e	0	Homo sapiens	hsa-miR-519e		
+hsa-miR-519e*	0	Homo sapiens	hsa-miR-519e*		
+hsa-miR-520a-3p	0	Homo sapiens	hsa-miR-520a-3p		
+hsa-miR-520a-5p	0	Homo sapiens	hsa-miR-520a-5p		
+hsa-miR-520b	0	Homo sapiens	hsa-miR-520b		
+hsa-miR-520c-3p	0	Homo sapiens	hsa-miR-520c-3p		
+hsa-miR-520d-3p	0	Homo sapiens	hsa-miR-520d-3p		
+hsa-miR-520d-5p	0	Homo sapiens	hsa-miR-520d-5p		
+hsa-miR-520e	0	Homo sapiens	hsa-miR-520e		
+hsa-miR-520f	0	Homo sapiens	hsa-miR-520f		
+hsa-miR-520g	0	Homo sapiens	hsa-miR-520g		
+hsa-miR-520h	0	Homo sapiens	hsa-miR-520h		
+hsa-miR-521	0	Homo sapiens	hsa-miR-521		
+hsa-miR-522	0	Homo sapiens	hsa-miR-522		
+hsa-miR-523	0	Homo sapiens	hsa-miR-523		
+hsa-miR-524-3p	0	Homo sapiens	hsa-miR-524-3p		
+hsa-miR-524-5p	0	Homo sapiens	hsa-miR-524-5p		
+hsa-miR-525-3p	0	Homo sapiens	hsa-miR-525-3p		
+hsa-miR-525-5p	0	Homo sapiens	hsa-miR-525-5p		
+hsa-miR-526b	0	Homo sapiens	hsa-miR-526b		
+hsa-miR-526b*	0	Homo sapiens	hsa-miR-526b*		
+hsa-miR-527	0	Homo sapiens	hsa-miR-527		
+hsa-miR-532-3p	0	Homo sapiens	hsa-miR-532-3p		
+hsa-miR-532-5p	0	Homo sapiens	hsa-miR-532-5p		
+hsa-miR-539	0	Homo sapiens	hsa-miR-539		
+hsa-miR-541	0	Homo sapiens	hsa-miR-541		
+hsa-miR-541*	0	Homo sapiens	hsa-miR-541*		
+hsa-miR-542-3p	0	Homo sapiens	hsa-miR-542-3p		
+hsa-miR-542-5p	0	Homo sapiens	hsa-miR-542-5p		
+hsa-miR-543	0	Homo sapiens	hsa-miR-543		
+hsa-miR-544	0	Homo sapiens	hsa-miR-544		
+hsa-miR-545	0	Homo sapiens	hsa-miR-545		
+hsa-miR-545*	0	Homo sapiens	hsa-miR-545*		
+hsa-miR-548a-3p	0	Homo sapiens	hsa-miR-548a-3p		
+hsa-miR-548a-5p	0	Homo sapiens	hsa-miR-548a-5p		
+hsa-miR-548b-3p	0	Homo sapiens	hsa-miR-548b-3p		
+hsa-miR-548b-5p	0	Homo sapiens	hsa-miR-548b-5p		
+hsa-miR-548c-3p	0	Homo sapiens	hsa-miR-548c-3p		
+hsa-miR-548c-5p	0	Homo sapiens	hsa-miR-548c-5p		
+hsa-miR-548d-3p	0	Homo sapiens	hsa-miR-548d-3p		
+hsa-miR-548d-5p	0	Homo sapiens	hsa-miR-548d-5p		
+hsa-miR-549	0	Homo sapiens	hsa-miR-549		
+hsa-miR-550	0	Homo sapiens	hsa-miR-550		
+hsa-miR-550*	0	Homo sapiens	hsa-miR-550*		
+hsa-miR-551a	0	Homo sapiens	hsa-miR-551a		
+hsa-miR-551b	0	Homo sapiens	hsa-miR-551b		
+hsa-miR-551b*	0	Homo sapiens	hsa-miR-551b*		
+hsa-miR-552	0	Homo sapiens	hsa-miR-552		
+hsa-miR-553	0	Homo sapiens	hsa-miR-553		
+hsa-miR-554	0	Homo sapiens	hsa-miR-554		
+hsa-miR-555	0	Homo sapiens	hsa-miR-555		
+hsa-miR-556-3p	0	Homo sapiens	hsa-miR-556-3p		
+hsa-miR-556-5p	0	Homo sapiens	hsa-miR-556-5p		
+hsa-miR-557	0	Homo sapiens	hsa-miR-557		
+hsa-miR-558	0	Homo sapiens	hsa-miR-558		
+hsa-miR-559	0	Homo sapiens	hsa-miR-559		
+hsa-miR-561	0	Homo sapiens	hsa-miR-561		
+hsa-miR-562	0	Homo sapiens	hsa-miR-562		
+hsa-miR-563	0	Homo sapiens	hsa-miR-563		
+hsa-miR-564	0	Homo sapiens	hsa-miR-564		
+hsa-miR-566	0	Homo sapiens	hsa-miR-566		
+hsa-miR-567	0	Homo sapiens	hsa-miR-567		
+hsa-miR-568	0	Homo sapiens	hsa-miR-568		
+hsa-miR-569	0	Homo sapiens	hsa-miR-569		
+hsa-miR-570	0	Homo sapiens	hsa-miR-570		
+hsa-miR-571	0	Homo sapiens	hsa-miR-571		
+hsa-miR-572	0	Homo sapiens	hsa-miR-572		
+hsa-miR-573	0	Homo sapiens	hsa-miR-573		
+hsa-miR-574-3p	0	Homo sapiens	hsa-miR-574-3p		
+hsa-miR-574-5p	0	Homo sapiens	hsa-miR-574-5p		
+hsa-miR-575	0	Homo sapiens	hsa-miR-575		
+hsa-miR-576-3p	0	Homo sapiens	hsa-miR-576-3p		
+hsa-miR-576-5p	0	Homo sapiens	hsa-miR-576-5p		
+hsa-miR-577	0	Homo sapiens	hsa-miR-577		
+hsa-miR-578	0	Homo sapiens	hsa-miR-578		
+hsa-miR-579	0	Homo sapiens	hsa-miR-579		
+hsa-miR-580	0	Homo sapiens	hsa-miR-580		
+hsa-miR-581	0	Homo sapiens	hsa-miR-581		
+hsa-miR-582-3p	0	Homo sapiens	hsa-miR-582-3p		
+hsa-miR-582-5p	0	Homo sapiens	hsa-miR-582-5p		
+hsa-miR-583	0	Homo sapiens	hsa-miR-583		
+hsa-miR-584	0	Homo sapiens	hsa-miR-584		
+hsa-miR-585	0	Homo sapiens	hsa-miR-585		
+hsa-miR-586	0	Homo sapiens	hsa-miR-586		
+hsa-miR-587	0	Homo sapiens	hsa-miR-587		
+hsa-miR-588	0	Homo sapiens	hsa-miR-588		
+hsa-miR-589	0	Homo sapiens	hsa-miR-589		
+hsa-miR-589*	0	Homo sapiens	hsa-miR-589*		
+hsa-miR-590-3p	0	Homo sapiens	hsa-miR-590-3p		
+hsa-miR-590-5p	0	Homo sapiens	hsa-miR-590-5p		
+hsa-miR-591	0	Homo sapiens	hsa-miR-591		
+hsa-miR-592	0	Homo sapiens	hsa-miR-592		
+hsa-miR-593	0	Homo sapiens	hsa-miR-593		
+hsa-miR-593*	0	Homo sapiens	hsa-miR-593*		
+hsa-miR-595	0	Homo sapiens	hsa-miR-595		
+hsa-miR-596	0	Homo sapiens	hsa-miR-596		
+hsa-miR-597	0	Homo sapiens	hsa-miR-597		
+hsa-miR-598	0	Homo sapiens	hsa-miR-598		
+hsa-miR-599	0	Homo sapiens	hsa-miR-599		
+hsa-miR-600	0	Homo sapiens	hsa-miR-600		
+hsa-miR-601	0	Homo sapiens	hsa-miR-601		
+hsa-miR-602	0	Homo sapiens	hsa-miR-602		
+hsa-miR-603	0	Homo sapiens	hsa-miR-603		
+hsa-miR-604	0	Homo sapiens	hsa-miR-604		
+hsa-miR-605	0	Homo sapiens	hsa-miR-605		
+hsa-miR-606	0	Homo sapiens	hsa-miR-606		
+hsa-miR-607	0	Homo sapiens	hsa-miR-607		
+hsa-miR-608	0	Homo sapiens	hsa-miR-608		
+hsa-miR-609	0	Homo sapiens	hsa-miR-609		
+hsa-miR-610	0	Homo sapiens	hsa-miR-610		
+hsa-miR-611	0	Homo sapiens	hsa-miR-611		
+hsa-miR-612	0	Homo sapiens	hsa-miR-612		
+hsa-miR-613	0	Homo sapiens	hsa-miR-613		
+hsa-miR-614	0	Homo sapiens	hsa-miR-614		
+hsa-miR-615-3p	0	Homo sapiens	hsa-miR-615-3p		
+hsa-miR-615-5p	0	Homo sapiens	hsa-miR-615-5p		
+hsa-miR-616	0	Homo sapiens	hsa-miR-616		
+hsa-miR-616*	0	Homo sapiens	hsa-miR-616*		
+hsa-miR-617	0	Homo sapiens	hsa-miR-617		
+hsa-miR-618	0	Homo sapiens	hsa-miR-618		
+hsa-miR-619	0	Homo sapiens	hsa-miR-619		
+hsa-miR-620	0	Homo sapiens	hsa-miR-620		
+hsa-miR-621	0	Homo sapiens	hsa-miR-621		
+hsa-miR-622	0	Homo sapiens	hsa-miR-622		
+hsa-miR-623	0	Homo sapiens	hsa-miR-623		
+hsa-miR-624	0	Homo sapiens	hsa-miR-624		
+hsa-miR-624*	0	Homo sapiens	hsa-miR-624*		
+hsa-miR-625	0	Homo sapiens	hsa-miR-625		
+hsa-miR-625*	0	Homo sapiens	hsa-miR-625*		
+hsa-miR-626	0	Homo sapiens	hsa-miR-626		
+hsa-miR-627	0	Homo sapiens	hsa-miR-627		
+hsa-miR-628-3p	0	Homo sapiens	hsa-miR-628-3p		
+hsa-miR-628-5p	0	Homo sapiens	hsa-miR-628-5p		
+hsa-miR-629	0	Homo sapiens	hsa-miR-629		
+hsa-miR-629*	0	Homo sapiens	hsa-miR-629*		
+hsa-miR-630	0	Homo sapiens	hsa-miR-630		
+hsa-miR-631	0	Homo sapiens	hsa-miR-631		
+hsa-miR-632	0	Homo sapiens	hsa-miR-632		
+hsa-miR-633	0	Homo sapiens	hsa-miR-633		
+hsa-miR-634	0	Homo sapiens	hsa-miR-634		
+hsa-miR-635	0	Homo sapiens	hsa-miR-635		
+hsa-miR-636	0	Homo sapiens	hsa-miR-636		
+hsa-miR-637	0	Homo sapiens	hsa-miR-637		
+hsa-miR-638	0	Homo sapiens	hsa-miR-638		
+hsa-miR-639	0	Homo sapiens	hsa-miR-639		
+hsa-miR-640	0	Homo sapiens	hsa-miR-640		
+hsa-miR-641	0	Homo sapiens	hsa-miR-641		
+hsa-miR-642	0	Homo sapiens	hsa-miR-642		
+hsa-miR-643	0	Homo sapiens	hsa-miR-643		
+hsa-miR-644	0	Homo sapiens	hsa-miR-644		
+hsa-miR-645	0	Homo sapiens	hsa-miR-645		
+hsa-miR-646	0	Homo sapiens	hsa-miR-646		
+hsa-miR-647	0	Homo sapiens	hsa-miR-647		
+hsa-miR-648	0	Homo sapiens	hsa-miR-648		
+hsa-miR-649	0	Homo sapiens	hsa-miR-649		
+hsa-miR-650	0	Homo sapiens	hsa-miR-650		
+hsa-miR-651	0	Homo sapiens	hsa-miR-651		
+hsa-miR-652	0	Homo sapiens	hsa-miR-652		
+hsa-miR-653	0	Homo sapiens	hsa-miR-653		
+hsa-miR-654-3p	0	Homo sapiens	hsa-miR-654-3p		
+hsa-miR-654-5p	0	Homo sapiens	hsa-miR-654-5p		
+hsa-miR-655	0	Homo sapiens	hsa-miR-655		
+hsa-miR-656	0	Homo sapiens	hsa-miR-656		
+hsa-miR-657	0	Homo sapiens	hsa-miR-657		
+hsa-miR-658	0	Homo sapiens	hsa-miR-658		
+hsa-miR-659	0	Homo sapiens	hsa-miR-659		
+hsa-miR-660	0	Homo sapiens	hsa-miR-660		
+hsa-miR-661	0	Homo sapiens	hsa-miR-661		
+hsa-miR-662	0	Homo sapiens	hsa-miR-662		
+hsa-miR-663	0	Homo sapiens	hsa-miR-663		
+hsa-miR-665	0	Homo sapiens	hsa-miR-665		
+hsa-miR-668	0	Homo sapiens	hsa-miR-668		
+hsa-miR-671-3p	0	Homo sapiens	hsa-miR-671-3p		
+hsa-miR-671-5p	0	Homo sapiens	hsa-miR-671-5p		
+hsa-miR-675	0	Homo sapiens	hsa-miR-675		
+hsa-miR-7	0	Homo sapiens	hsa-miR-7		
+hsa-miR-7-1*	0	Homo sapiens	hsa-miR-7-1*		
+hsa-miR-7-2*	0	Homo sapiens	hsa-miR-7-2*		
+hsa-miR-708	0	Homo sapiens	hsa-miR-708		
+hsa-miR-708*	0	Homo sapiens	hsa-miR-708*		
+hsa-miR-744	0	Homo sapiens	hsa-miR-744		
+hsa-miR-744*	0	Homo sapiens	hsa-miR-744*		
+hsa-miR-758	0	Homo sapiens	hsa-miR-758		
+hsa-miR-760	0	Homo sapiens	hsa-miR-760		
+hsa-miR-765	0	Homo sapiens	hsa-miR-765		
+hsa-miR-766	0	Homo sapiens	hsa-miR-766		
+hsa-miR-767-3p	0	Homo sapiens	hsa-miR-767-3p		
+hsa-miR-767-5p	0	Homo sapiens	hsa-miR-767-5p		
+hsa-miR-768-3p	0	Homo sapiens	hsa-miR-768-3p		
+hsa-miR-768-5p	0	Homo sapiens	hsa-miR-768-5p		
+hsa-miR-769-3p	0	Homo sapiens	hsa-miR-769-3p		
+hsa-miR-769-5p	0	Homo sapiens	hsa-miR-769-5p		
+hsa-miR-770-5p	0	Homo sapiens	hsa-miR-770-5p		
+hsa-miR-801	0	Homo sapiens	hsa-miR-801		
+hsa-miR-802	0	Homo sapiens	hsa-miR-802		
+hsa-miR-873	0	Homo sapiens	hsa-miR-873		
+hsa-miR-874	0	Homo sapiens	hsa-miR-874		
+hsa-miR-875-3p	0	Homo sapiens	hsa-miR-875-3p		
+hsa-miR-875-5p	0	Homo sapiens	hsa-miR-875-5p		
+hsa-miR-876-3p	0	Homo sapiens	hsa-miR-876-3p		
+hsa-miR-876-5p	0	Homo sapiens	hsa-miR-876-5p		
+hsa-miR-877	0	Homo sapiens	hsa-miR-877		
+hsa-miR-877*	0	Homo sapiens	hsa-miR-877*		
+hsa-miR-885-3p	0	Homo sapiens	hsa-miR-885-3p		
+hsa-miR-885-5p	0	Homo sapiens	hsa-miR-885-5p		
+hsa-miR-886-3p	0	Homo sapiens	hsa-miR-886-3p		
+hsa-miR-886-5p	0	Homo sapiens	hsa-miR-886-5p		
+hsa-miR-887	0	Homo sapiens	hsa-miR-887		
+hsa-miR-888	0	Homo sapiens	hsa-miR-888		
+hsa-miR-888*	0	Homo sapiens	hsa-miR-888*		
+hsa-miR-889	0	Homo sapiens	hsa-miR-889		
+hsa-miR-890	0	Homo sapiens	hsa-miR-890		
+hsa-miR-891a	0	Homo sapiens	hsa-miR-891a		
+hsa-miR-891b	0	Homo sapiens	hsa-miR-891b		
+hsa-miR-892a	0	Homo sapiens	hsa-miR-892a		
+hsa-miR-892b	0	Homo sapiens	hsa-miR-892b		
+hsa-miR-9	0	Homo sapiens	hsa-miR-9		
+hsa-miR-9*	0	Homo sapiens	hsa-miR-9*		
+hsa-miR-920	0	Homo sapiens	hsa-miR-920		
+hsa-miR-921	0	Homo sapiens	hsa-miR-921		
+hsa-miR-922	0	Homo sapiens	hsa-miR-922		
+hsa-miR-923	0	Homo sapiens	hsa-miR-923		
+hsa-miR-924	0	Homo sapiens	hsa-miR-924		
+hsa-miR-92a	0	Homo sapiens	hsa-miR-92a		
+hsa-miR-92a-1*	0	Homo sapiens	hsa-miR-92a-1*		
+hsa-miR-92a-2*	0	Homo sapiens	hsa-miR-92a-2*		
+hsa-miR-92b	0	Homo sapiens	hsa-miR-92b		
+hsa-miR-92b*	0	Homo sapiens	hsa-miR-92b*		
+hsa-miR-93	0	Homo sapiens	hsa-miR-93		
+hsa-miR-93*	0	Homo sapiens	hsa-miR-93*		
+hsa-miR-933	0	Homo sapiens	hsa-miR-933		
+hsa-miR-934	0	Homo sapiens	hsa-miR-934		
+hsa-miR-935	0	Homo sapiens	hsa-miR-935		
+hsa-miR-936	0	Homo sapiens	hsa-miR-936		
+hsa-miR-937	0	Homo sapiens	hsa-miR-937		
+hsa-miR-938	0	Homo sapiens	hsa-miR-938		
+hsa-miR-939	0	Homo sapiens	hsa-miR-939		
+hsa-miR-940	0	Homo sapiens	hsa-miR-940		
+hsa-miR-941	0	Homo sapiens	hsa-miR-941		
+hsa-miR-942	0	Homo sapiens	hsa-miR-942		
+hsa-miR-943	0	Homo sapiens	hsa-miR-943		
+hsa-miR-944	0	Homo sapiens	hsa-miR-944		
+hsa-miR-95	0	Homo sapiens	hsa-miR-95		
+hsa-miR-96	0	Homo sapiens	hsa-miR-96		
+hsa-miR-96*	0	Homo sapiens	hsa-miR-96*		
+hsa-miR-98	0	Homo sapiens	hsa-miR-98		
+hsa-miR-99a	0	Homo sapiens	hsa-miR-99a		
+hsa-miR-99a*	0	Homo sapiens	hsa-miR-99a*		
+hsa-miR-99b	0	Homo sapiens	hsa-miR-99b		
+hsa-miR-99b*	0	Homo sapiens	hsa-miR-99b*		
+hsa-miR-199a-3p	0	Homo sapiens	hsa-miR-199a-3p		
+hsa-miR-320a	0	Homo sapiens	hsa-miR-320a		
+hsa-miR-518a-5p	0	Homo sapiens	hsa-miR-518a-5p		
+hsa-miR-768-3p_v11.0	0	Homo sapiens	hsa-miR-768-3p_v11.0		
+hsa-miR-768-5p_v11.0	0	Homo sapiens	hsa-miR-768-5p_v11.0		
+hsa-miR-801_v10.1	0	Homo sapiens	hsa-miR-801_v10.1		
+hsv1-miR-LAT_v10.1	0	Human herpesvirus 1	hsv1-miR-LAT_v10.1		
+hsv1-miR-H1	0	Human herpesvirus 1	hsv1-miR-H1		
+hsv1-miR-LAT	0	Human herpesvirus 1	hsv1-miR-LAT		
+ebv-miR-BART1-3p	0	Human herpesvirus 4	ebv-miR-BART1-3p		
+ebv-miR-BART1-5p	0	Human herpesvirus 4	ebv-miR-BART1-5p		
+ebv-miR-BART10	0	Human herpesvirus 4	ebv-miR-BART10		
+ebv-miR-BART10*	0	Human herpesvirus 4	ebv-miR-BART10*		
+ebv-miR-BART11-3p	0	Human herpesvirus 4	ebv-miR-BART11-3p		
+ebv-miR-BART11-5p	0	Human herpesvirus 4	ebv-miR-BART11-5p		
+ebv-miR-BART12	0	Human herpesvirus 4	ebv-miR-BART12		
+ebv-miR-BART13	0	Human herpesvirus 4	ebv-miR-BART13		
+ebv-miR-BART13*	0	Human herpesvirus 4	ebv-miR-BART13*		
+ebv-miR-BART14	0	Human herpesvirus 4	ebv-miR-BART14		
+ebv-miR-BART14*	0	Human herpesvirus 4	ebv-miR-BART14*		
+ebv-miR-BART15	0	Human herpesvirus 4	ebv-miR-BART15		
+ebv-miR-BART16	0	Human herpesvirus 4	ebv-miR-BART16		
+ebv-miR-BART17-3p	0	Human herpesvirus 4	ebv-miR-BART17-3p		
+ebv-miR-BART17-5p	0	Human herpesvirus 4	ebv-miR-BART17-5p		
+ebv-miR-BART18-3p	0	Human herpesvirus 4	ebv-miR-BART18-3p		
+ebv-miR-BART18-5p	0	Human herpesvirus 4	ebv-miR-BART18-5p		
+ebv-miR-BART19-3p	0	Human herpesvirus 4	ebv-miR-BART19-3p		
+ebv-miR-BART19-5p	0	Human herpesvirus 4	ebv-miR-BART19-5p		
+ebv-miR-BART2-3p	0	Human herpesvirus 4	ebv-miR-BART2-3p		
+ebv-miR-BART2-5p	0	Human herpesvirus 4	ebv-miR-BART2-5p		
+ebv-miR-BART20-3p	0	Human herpesvirus 4	ebv-miR-BART20-3p		
+ebv-miR-BART20-5p	0	Human herpesvirus 4	ebv-miR-BART20-5p		
+ebv-miR-BART3	0	Human herpesvirus 4	ebv-miR-BART3		
+ebv-miR-BART3*	0	Human herpesvirus 4	ebv-miR-BART3*		
+ebv-miR-BART4	0	Human herpesvirus 4	ebv-miR-BART4		
+ebv-miR-BART5	0	Human herpesvirus 4	ebv-miR-BART5		
+ebv-miR-BART6-3p	0	Human herpesvirus 4	ebv-miR-BART6-3p		
+ebv-miR-BART6-5p	0	Human herpesvirus 4	ebv-miR-BART6-5p		
+ebv-miR-BART7	0	Human herpesvirus 4	ebv-miR-BART7		
+ebv-miR-BART7*	0	Human herpesvirus 4	ebv-miR-BART7*		
+ebv-miR-BART8	0	Human herpesvirus 4	ebv-miR-BART8		
+ebv-miR-BART8*	0	Human herpesvirus 4	ebv-miR-BART8*		
+ebv-miR-BART9	0	Human herpesvirus 4	ebv-miR-BART9		
+ebv-miR-BART9*	0	Human herpesvirus 4	ebv-miR-BART9*		
+ebv-miR-BHRF1-1	0	Human herpesvirus 4	ebv-miR-BHRF1-1		
+ebv-miR-BHRF1-2	0	Human herpesvirus 4	ebv-miR-BHRF1-2		
+ebv-miR-BHRF1-2*	0	Human herpesvirus 4	ebv-miR-BHRF1-2*		
+ebv-miR-BHRF1-3	0	Human herpesvirus 4	ebv-miR-BHRF1-3		
+hcmv-miR-UL112	0	Human herpesvirus 5	hcmv-miR-UL112		
+hcmv-miR-UL148D	0	Human herpesvirus 5	hcmv-miR-UL148D		
+hcmv-miR-UL22A	0	Human herpesvirus 5	hcmv-miR-UL22A		
+hcmv-miR-UL22A*	0	Human herpesvirus 5	hcmv-miR-UL22A*		
+hcmv-miR-UL36	0	Human herpesvirus 5	hcmv-miR-UL36		
+hcmv-miR-UL36*	0	Human herpesvirus 5	hcmv-miR-UL36*		
+hcmv-miR-UL70-3p	0	Human herpesvirus 5	hcmv-miR-UL70-3p		
+hcmv-miR-UL70-5p	0	Human herpesvirus 5	hcmv-miR-UL70-5p		
+hcmv-miR-US25-1	0	Human herpesvirus 5	hcmv-miR-US25-1		
+hcmv-miR-US25-1*	0	Human herpesvirus 5	hcmv-miR-US25-1*		
+hcmv-miR-US25-2-3p	0	Human herpesvirus 5	hcmv-miR-US25-2-3p		
+hcmv-miR-US25-2-5p	0	Human herpesvirus 5	hcmv-miR-US25-2-5p		
+hcmv-miR-US33-3p	0	Human herpesvirus 5	hcmv-miR-US33-3p		
+hcmv-miR-US33-5p	0	Human herpesvirus 5	hcmv-miR-US33-5p		
+hcmv-miR-US4	0	Human herpesvirus 5	hcmv-miR-US4		
+hcmv-miR-US5-1	0	Human herpesvirus 5	hcmv-miR-US5-1		
+hcmv-miR-US5-2	0	Human herpesvirus 5	hcmv-miR-US5-2		
+hiv1-miR-H1	0	Human immunodeficiency virus 1	hiv1-miR-H1		
+hiv1-miR-N367	0	Human immunodeficiency virus 1	hiv1-miR-N367		
+kshv-miR-K12-1	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-1		
+kshv-miR-K12-10a	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-10a		
+kshv-miR-K12-10b	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-10b		
+kshv-miR-K12-11	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-11		
+kshv-miR-K12-12	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-12		
+kshv-miR-K12-2	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-2		
+kshv-miR-K12-3	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-3		
+kshv-miR-K12-3*	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-3*		
+kshv-miR-K12-4-3p	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-4-3p		
+kshv-miR-K12-4-5p	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-4-5p		
+kshv-miR-K12-5	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-5		
+kshv-miR-K12-6-3p	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-6-3p		
+kshv-miR-K12-6-5p	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-6-5p		
+kshv-miR-K12-7	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-7		
+kshv-miR-K12-8	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-8		
+kshv-miR-K12-9	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-9		
+kshv-miR-K12-9*	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-9*		
+miRNABrightCorner30	1			CONTROL	
+mr_1	1			CONTROL	
+hur_1	1			CONTROL	
+hur_2	1			CONTROL	
+hur_4	1			CONTROL	
+hur_5	1			CONTROL	
+hur_6	1			CONTROL	
+DarkCorner	1			CONTROL	
+NC1_00000197	-1			CONTROL	
+NC1_00000215	-1			CONTROL	
+NC2_00079215	-1			CONTROL	
+NC2_00092197	-1			CONTROL	
+NC2_00106057	-1			CONTROL	
+NC2_00122731	-1			CONTROL	
+NegativeControl	-1			CONTROL	
+SCorner3	1			CONTROL	
+dmr_285	1			CONTROL	
+dmr_3	1			CONTROL	
+dmr_308	1			CONTROL	
+dmr_316	1			CONTROL	
+dmr_31a	1			CONTROL	
+dmr_6	1			CONTROL	
+dmr_285_18				CONTROL	
+dmr_285_19				CONTROL	
+dmr_3_16				CONTROL	
+dmr_3_17				CONTROL	
+dmr_308_21				CONTROL	
+dmr_308_22				CONTROL	
+dmr_316_21				CONTROL	
+dmr_316_22				CONTROL	
+dmr_31a_18				CONTROL	
+dmr_31a_19				CONTROL	
+dmr_6_21				CONTROL	
+dmr_6_22				CONTROL	
+hur_1_19				CONTROL	
+hur_1_20				CONTROL	
+hur_1_21				CONTROL	
+hur_1_22				CONTROL	
+hur_2_19				CONTROL	
+hur_2_20				CONTROL	
+hur_2_21				CONTROL	
+hur_2_22				CONTROL	
+hur_4_26				CONTROL	
+hur_4_27				CONTROL	
+hur_4_28				CONTROL	
+hur_4_29				CONTROL	
+hur_5_22				CONTROL	
+hur_5_23				CONTROL	
+hur_5_24				CONTROL	
+hur_5_25				CONTROL	
+hur_6_27				CONTROL	
+hur_6_28				CONTROL	
+hur_6_29				CONTROL	
+mr_1_20				CONTROL	
+mr_1_21				CONTROL	
+mr_1_22				CONTROL	
+mr_1_23				CONTROL	
+hsa-miR-220a_v15.0	0	Homo sapiens	hsa-miR-220a_v15.0		
+hsa-miR-220b_v15.0	0	Homo sapiens	hsa-miR-220b_v15.0		
+hsa-miR-220c_v15.0	0	Homo sapiens	hsa-miR-220c_v15.0		
+hsa-miR-323b-5p	0	Homo sapiens	hsa-miR-323b-5p		
+hsa-miR-500a	0	Homo sapiens	hsa-miR-500a		
+hsa-miR-500a*	0	Homo sapiens	hsa-miR-500a*		
+hsa-miR-550a	0	Homo sapiens	hsa-miR-550a		
+hsa-miR-550a*	0	Homo sapiens	hsa-miR-550a*		
+hsa-miR-642a	0	Homo sapiens	hsa-miR-642a		
+hsa-miR-886-3p_v15.0	0	Homo sapiens	hsa-miR-886-3p_v15.0		
+hsa-miR-886-5p_v15.0	0	Homo sapiens	hsa-miR-886-5p_v15.0		
+hsa-miR-923_v12.0	0	Homo sapiens	hsa-miR-923_v12.0		
+hsv1-miR-H1_v14.0	0	Human herpesvirus 1	hsv1-miR-H1_v14.0		
+kshv-miR-K12-12*	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-12*		
+kshv-miR-K12-5_v14.0	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-5_v14.0		
+kshv-miR-K12-7_v14.0	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-7_v14.0		
+kshv-miR-K12-8_v14.0	0	Kaposi's sarcoma-associated herpesvirus KSHV	kshv-miR-K12-8_v14.0		
+!platform_table_end
