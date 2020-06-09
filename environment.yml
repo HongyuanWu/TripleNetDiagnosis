@@ -1,0 +1,18 @@
+name: triple-net-diagnosis
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  # Python package
+  - python=3.6
+  - numpy>=1.13.3
+  - pandas>=1.0.3
+  - seaborn>=0.10.0
+  - plotly>=4.5.0
+  # R package
+  - bioconductor-mogene20sttranscriptcluster.db
+  - bioconductor-biobase
+  - bioconductor-geoquery
+  - bioconductor-limma
+  - r-readr
