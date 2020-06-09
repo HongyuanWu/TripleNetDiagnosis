@@ -112,5 +112,5 @@ GSE2MArrayLM <- function(GSE=NULL, filename=NULL, GPL=NULL, destdir="~/.GEO",
     print("Extract only the following columns.")
     print(paste(extract_cols, collapse=", "))
   }
-  return (tT)
+  return (list(tT, gset))
 }

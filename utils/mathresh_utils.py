@@ -3,6 +3,7 @@ import os
 import re
 import numpy as np
 import pandas as pd
+import seaborn as sns
 
 # set the `plotly.io.orca.config.executable` property to the full path of your orca executable.
 # If you use `environment.yml` to create anaconda environment, this command automatically correct the path.
@@ -68,7 +69,9 @@ def MAthresholding(x, logFC=1.2, p_val=0.05, verbose=True, title="", plot_volcan
         print(f"{title} : {before} --[drop NaN]-> {middle} --[threshold]-> {after} ({after/before:>6.1%})")
     return df
 
-def applyMAthresh2all(gen, colnames=[], logFC=1.2, p_val=0.05, verbose=True, plot_volcano=False, volcano_save_dir="."):
+def applyMAthresh2all(gen, colnames=[], logFC=1.2, p_val=0.05, verbose=True,
+                      plot_volcano=False, volcano_save_dir=".",
+                      plot_clustermap=False, clustermap_save_dir=".",):
     """Apply `MAthresholding` to all data.
     @params colnames     :
     @params logFC        : (float) threshold value.
@@ -86,13 +89,24 @@ def applyMAthresh2all(gen, colnames=[], logFC=1.2, p_val=0.05, verbose=True, plo
         colnames = [colnames]
     lst = []
     for path in gen:
+        if isinstance(path, tuple) and len(path)==2:
+            path, eset_path = path
         fn = str(path).split("/")[-1]
         volcano_fig_path = os.path.join(volcano_save_dir, fn + ".png")
         df = MAthresholding(x=path, logFC=logFC, p_val=p_val, verbose=verbose, title=fn, plot_volcano=True, hover_data=colnames, save_path=volcano_fig_path)
         feature_col = [col for col in colnames if col in df.columns][0]
-        lst.extend(df[feature_col].values.tolist())
+        extracted_ids = df[feature_col].values.tolist()
+        lst.extend(extracted_ids)
+        if plot_clustermap:
+            df_eset = pd.read_csv(eset_path, sep="\t")
+            col_colors = np.where(df["logFC"]>=0, "red", "blue")
+            fig = sns.clustermap(data=df_eset.loc[:, extracted_ids].fillna(0), cmap="bwr", center=0, figsize=(18,6), col_colors=col_colors)
+            clustermap_fig_path = os.path.join(clustermap_save_dir, fn + ".png")
+            fig.savefig(clustermap_fig_path)
     before = len(lst)
+    num_nan_data = len([e for e in lst if str(e)=="nan"])
     unique_list = list(set(lst))
     after = len(unique_list)
+    print(f"non annotated data : {num_nan_data} ({num_nan_data/before:>6.1%})")
     print(f"unique data : {before} -> {after} ({after/before:>6.1%})")
     return unique_list
