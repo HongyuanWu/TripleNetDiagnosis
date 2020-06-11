@@ -66,7 +66,7 @@ def MAthresholding(x, logFC=1.2, p_val=0.05, verbose=True,
     df = df.dropna(axis=0, how="any", subset=["logFC", "P.Value"])
     middle = len(df)
     if plot_volcano:
-        fig = volcanoplot(df=df, logFC=logFC, p_val=p_val, hover_data=hover_data, **volcanokwargs)
+        fig = volcanoplot(df=df, logFC=logFC, p_val=p_val, hover_data=hover_data)
         fig.update_layout(title=title, font=dict(family="Monaco", size=18, color="#7f7f7f"))
         fig.show()
         # Save figure.
@@ -113,7 +113,9 @@ def applyMAthresh2all(gen, colnames=[], logFC=1.2, p_val=0.05, verbose=True,
         if plot_clustermap:
             df_eset = pd.read_csv(eset_path, sep="\t")
             col_colors = np.where(df["logFC"]>=0, "red", "blue")
-            fig = sns.clustermap(data=df_eset.loc[:, extracted_ids].fillna(0), cmap="bwr", center=0, figsize=(18,6), col_colors=col_colors)
+            data = df_eset.loc[df.ID, :].fillna(0).T
+            data.columns = extracted_ids
+            fig = sns.clustermap(data=data, cmap="bwr", figsize=(18,6), col_colors=col_colors)
             clustermap_fig_path = os.path.join(clustermap_save_dir, fn + ".png")
             fig.savefig(clustermap_fig_path)
     before = len(lst)

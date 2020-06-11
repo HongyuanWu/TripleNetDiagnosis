@@ -47,7 +47,7 @@ GSE2MArrayLM <- function(GSE=NULL, filename=NULL, GPL=NULL, destdir="~/.GEO",
   # (make proper column names to match toptable.)
   fvarLabels(gset) <- make.names(fvarLabels(gset))
 
-  # Extract "control" and "case" samples.
+  # Extract `colname` columns (=`group_cols`).
   j <- 1
   colname <- tolower(colname)
   for (label in varLabels(gset)) {
@@ -55,6 +55,7 @@ GSE2MArrayLM <- function(GSE=NULL, filename=NULL, GPL=NULL, destdir="~/.GEO",
       j <- j + 1
   }
   group_cols <- gset[[j]]
+  # Extract "control" and "case" samples.
   sml <- c()
   for (i in 1:length(group_cols)) {
     group <- group_cols[i]
@@ -112,5 +113,5 @@ GSE2MArrayLM <- function(GSE=NULL, filename=NULL, GPL=NULL, destdir="~/.GEO",
     print("Extract only the following columns.")
     print(paste(extract_cols, collapse=", "))
   }
-  return (list(tT, gset))
+  return (list(tT, ex))
 }
