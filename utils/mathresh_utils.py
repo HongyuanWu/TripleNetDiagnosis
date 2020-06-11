@@ -82,46 +82,59 @@ def MAthresholding(x, logFC=1.2, p_val=0.05, verbose=True,
         print(f"{title}{before} --[drop NaN]-> {middle} --[threshold]-> {after} ({after/before:>6.1%})")
     return df
 
-def applyMAthresh2all(gen, colnames=[], logFC=1.2, p_val=0.05, verbose=True,
-                      plot_volcano=False, volcano_save_dir=".",
-                      plot_clustermap=False, clustermap_save_dir=".",):
-    """Apply `MAthresholding` to all data.
-    @params colnames     : (list)  Column Names for features you want to extract.
-    @params logFC        : (float) threshold value.
-    @params p_val        : (float) threshold value.
-    @params verbose      : (bool) Whether print info or not.
-    @params plot_*       : (bool) Whether plot or not.
-    @params *_save_dir   : (str)  Where you want to save *plot.
-    """
-    if verbose:
-        print("Apply MicroArray thresholding to all data.")
-        print(f"|logFC| > {logFC}")
-        print(f"p_val < {p_val}")
-        print("="*42)
-    if isinstance(colnames, str):
-        colnames = [colnames]
-    lst = []
-    for path in gen:
-        if isinstance(path, tuple) and len(path)==2:
-            path, eset_path = path
-        fn = str(path).split("/")[-1]
-        volcano_fig_path = os.path.join(volcano_save_dir, fn + ".png")
-        df = MAthresholding(x=path, logFC=logFC, p_val=p_val, verbose=verbose, title=fn, plot_volcano=True, hover_data=colnames, save_path=volcano_fig_path)
-        feature_col = [col for col in colnames if col in df.columns][0]
-        extracted_ids = df[feature_col].values.tolist()
-        lst.extend(extracted_ids)
-        if plot_clustermap:
-            df_eset = pd.read_csv(eset_path, sep="\t")
-            col_colors = np.where(df["logFC"]>=0, "red", "blue")
-            data = df_eset.loc[df.ID, :].fillna(0).T
-            data.columns = extracted_ids
-            fig = sns.clustermap(data=data, cmap="bwr", figsize=(18,6), col_colors=col_colors)
-            clustermap_fig_path = os.path.join(clustermap_save_dir, fn + ".png")
-            fig.savefig(clustermap_fig_path)
-    before = len(lst)
-    num_nan_data = len([e for e in lst if str(e)=="nan"])
-    unique_list = list(set(lst))
-    after = len(unique_list)
-    print(f"Not annotated data : {num_nan_data} ({num_nan_data/before:>6.1%})")
-    print(f"Unique data : {before} -> {after} ({after/before:>6.1%})")
-    return unique_list
+def clustermapplot(eset_path, thred_path, colnames=[], fillna=0):
+    df_thred = pd.read_csv(thred_path, sep="\t")
+    colname = [col for col in colnames if col in df_thred.columns][0]
+    symbol = df_thred[colname]
+    col_colors = np.where(df_thred["logFC"]>=0, "red", "blue")
+
+    df_eset = pd.read_csv(eset_path, sep="\t")
+    data = df_eset.loc[df_thred.ID, :].fillna(fillna)
+    data = data.transpose()
+    data.columns = symbol
+    fig = sns.clustermap(data=data, cmap="bwr", figsize=(18,6), col_colors=col_colors)
+    return fig
+
+# def applyMAthresh2all(gen, colnames=[], logFC=1.2, p_val=0.05, verbose=True,
+#                       plot_volcano=False, volcano_save_dir=".",
+#                       plot_clustermap=False, clustermap_save_dir=".",):
+#     """Apply `MAthresholding` to all data.
+#     @params colnames     : (list)  Column Names for features you want to extract.
+#     @params logFC        : (float) threshold value.
+#     @params p_val        : (float) threshold value.
+#     @params verbose      : (bool) Whether print info or not.
+#     @params plot_*       : (bool) Whether plot or not.
+#     @params *_save_dir   : (str)  Where you want to save *plot.
+#     """
+#     if verbose:
+#         print("Apply MicroArray thresholding to all data.")
+#         print(f"|logFC| > {logFC}")
+#         print(f"p_val < {p_val}")
+#         print("="*42)
+#     if isinstance(colnames, str):
+#         colnames = [colnames]
+#     lst = []
+#     for path in gen:
+#         if isinstance(path, tuple) and len(path)==2:
+#             path, eset_path = path
+#         fn = str(path).split("/")[-1]
+#         volcano_fig_path = os.path.join(volcano_save_dir, fn + ".png")
+#         df = MAthresholding(x=path, logFC=logFC, p_val=p_val, verbose=verbose, title=fn, plot_volcano=True, hover_data=colnames, save_path=volcano_fig_path)
+#         feature_col = [col for col in colnames if col in df.columns][0]
+#         extracted_ids = df[feature_col].values.tolist()
+#         lst.extend(extracted_ids)
+#         if plot_clustermap:
+#             df_eset = pd.read_csv(eset_path, sep="\t")
+#             col_colors = np.where(df["logFC"]>=0, "red", "blue")
+#             data = df_eset.loc[df.ID, :].fillna(0).T
+#             data.columns = extracted_ids
+#             fig = sns.clustermap(data=data, cmap="bwr", figsize=(18,6), col_colors=col_colors)
+#             clustermap_fig_path = os.path.join(clustermap_save_dir, fn + ".png")
+#             fig.savefig(clustermap_fig_path)
+#     before = len(lst)
+#     num_nan_data = len([e for e in lst if str(e)=="nan"])
+#     unique_list = list(set(lst))
+#     after = len(unique_list)
+#     print(f"Not annotated data : {num_nan_data} ({num_nan_data/before:>6.1%})")
+#     print(f"Unique data : {before} -> {after} ({after/before:>6.1%})")
+#     return unique_list
