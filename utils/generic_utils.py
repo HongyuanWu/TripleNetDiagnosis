@@ -32,7 +32,7 @@ def collectGeneSymbols(gen, colnames=[], drop_duplicate=True, remove_nan=True, d
         colname = [col for col in colnames if col in df.columns][0]
         symbol  = df[colname].values.tolist()
         if delimiter is not None:
-            symbol = flatten_dual([e.split(delimiter) for e in symbol])
+            symbol = flatten_dual([str(e).split(delimiter) for e in symbol])
         symbols.extend(symbol)
     if drop_duplicate:
         symbols = list(set(symbols))
