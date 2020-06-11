@@ -2,7 +2,7 @@
 
 This is a replication of the paper ["A novel circRNA-miRNA-mRNA network identifies circ-YOD1 as a biomarker for coronary artery disease"](https://doi.org/10.1038/s41598-019-54603-2). The flowchart is shown in following:
 
-![Figure.1 A flowchart of ceRNA network construction.](https://github.com/iwasakishuto/TripleNetDiagnosis/blob/master/image/FlowChart/fc.all.png?raw=true)
+![Figure.1 A flowchart of ceRNA network construction.](https://github.com/iwasakishuto/TripleNetDiagnosis/blob/master/image/Figure.1.FlowChart/fc.all.png?raw=true)
 
 ## Materials
 
