@@ -7,6 +7,8 @@ library(clusterProfiler)
 library(DOSE)
 library(GOplot)
 library(BiocManager)
+library(RDAVIDWebService)
+library(org.Hs.eg.db)
 
 enrichGOdotplot <- function(gene, OrgDb, keyType="ENTREZID", pvalueCutoff=0.05,
                            pAdjustMethod="BH", universe, qvalueCutoff=0.2,
@@ -70,57 +72,53 @@ myggsave <- function(filename){
   ggsave(filename, width=14, height=8)
 }
 
-# geneSYMBOL2KEGGID <- function(gene_symbols){
-#   library(RCurl)
-#   options(RCurlOptions = list(cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")))
-#   if (FALSE){
-#     paste("reference: https://gist.github.com/vsoch/11149451")
-#   }
-#   hsa = c()
-#   for (i in 1:length(gene_symbols)) {
-#     query = paste("http://rest.kegg.jp/find/hsa/", gene_symbols[i], sep="")
-#     result = getURL(query)
-#     hsa = c(hsa,strsplit(result,"\t")[[1]][1])
-#   }
-#   data <- data.frame(gene_symbols, hsa)
-#
-#   missing = data[-grep("hsa:", hsa),]
-#   missing$hsa = rep("<NA>", dim(missing)[1])
-#   missing$ko  = rep("<NA>", dim(missing)[1])
-#   data = data[grep("hsa:",hsa),]
-#
-#   # Now look up KO ID
-#   ko = c()
-#   for (i in 1:length(data$gene_symbols)) {
-#     query = paste("http://rest.kegg.jp/link/ko/",as.character(data$hsa[i]),sep="")
-#     result = getURL(query)
-#     ko = c(ko, as.character(gsub("\n","",strsplit(result,"\t")[[1]][2])))
-#   }
-#
-#   # More squashing
-#   ko = as.character(ko)
-#   data = cbind(data,ko)
-#
-#   # Add missing back
-#   data <- rbind(data,missing)
-#   data <- data[order(data$a),]
-#   return (data)
-# }
+geneSYMBOL2EGID <- function(gene_symbols){
+  # Convert GeneSYMBOL to ENTREZ_GENE_ID
+  ENTREZ_GENE_IDs = mget(x=gene_symbols, envir=revmap(org.Hs.egSYMBOL), ifnotfound=NA)
+  return (ENTREZ_GENE_IDs)
+}
 
-geneSYMBOL2KEGGID <- function(gene_symbols){
-  library(org.Hs.eg.db)
-  if (FALSE){
-    paste("To get get the KEGG IDs associated with a particular gene symbol you ",
-          "must first convert the gene symbols from the org.Hs.eg.db package into ",
-          "Entrez Gene IDs.There are two reasons for this.",
-          "1. we never want to use gene symbols as primary identifiers because they are not unique.",
-          "2. the org.Hs.eg.db package is Entrez Gene centric.",
-          "So if you have an Entrez Gene ID, then you can get to every other ",
-          "piece of information in the org.Hs.eg.db package database.")
+EGID2KEGGID <- function(ENTREZ_GENE_IDs, expand=FALSE){
+  KEGG_IDs = mget(x=as.character(ENTREZ_GENE_IDs), envir=org.Hs.egPATH, ifnotfound=NA)
+  if (expand){
+    KEGG_chars <- character()
+    i <- 1
+    for (kegg_id in KEGG_IDs){
+      for (ids in kegg_id){
+        for (id in ids){
+          if (is.na(id) == FALSE){
+            KEGG_chars[i] <- id
+            i <- i+1
+          }
+        }
+      }
+    }
+    KEGG_chars <- as.character(as.integer(KEGG_chars))
+    return (unique(KEGG_chars))
+  }else{
+    return (KEGG_IDs)
   }
-  # Get the Entrez gene IDs associated with those symbols
-  EG_IDs = mget(gene_symbols, revmap(org.Hs.egSYMBOL),ifnotfound=NA)
-  # Then get the KEGG IDs associated with those entrez genes.
-  KEGG_IDs = mget(as.character(EG_IDs), org.Hs.egPATH,ifnotfound=NA)
+}
+
+geneSYMBOL2KEGGID <- function(gene_symbols, expand=FALSE){
+  if (FALSE){
+    paste("To get the KEGG IDs associated with a particular gene symbol you ",
+          "must first convert the gene symbols from the `org.Hs.eg.db` package into ",
+          "Entrez Gene IDs. There are two reasons for this.",
+          "   1. we never want to use gene symbols as primary identifiers because they are not unique.",
+          "   2. the `org.Hs.eg.db` package is Entrez Gene centric.",
+          "So if you have an Entrez Gene ID, then you can get to every other ",
+          "piece of information in the `org.Hs.eg.db` package database.",
+          "===================================================================",
+          "function: mget",
+          "@params x          : A vector of variable names (or keys)",
+          "@params envir      : Where to look for the key(s).",
+          "@params mode       : the mode or type of object sought",
+          "@params ifnotfound : a list of values to be used if the item is not found",
+          "@params inherits   : should the enclosing frames of the environment be searched?",
+        )
+  }
+  ENTREZ_GENE_IDs = geneSYMBOL2EGID(gene_symbols)
+  KEGG_IDs = EGID2KEGGID(ENTREZ_GENE_IDs, expand=expand)
   return (KEGG_IDs)
 }
