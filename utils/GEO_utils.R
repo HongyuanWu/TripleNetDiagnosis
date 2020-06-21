@@ -1,4 +1,4 @@
-# Version info: R 3.2.3, Biobase 2.30.0, GEOquery 2.40.0, limma 3.26.8
+# Version info: R 3.6.3, Biobase 2.30.0, GEOquery 2.40.0, limma 3.26.8
 # Author iwasakishuto
 # Date 2020-06-08
 
