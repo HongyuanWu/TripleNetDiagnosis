@@ -9,6 +9,7 @@ library(GOplot)
 library(BiocManager)
 library(RDAVIDWebService)
 library(org.Hs.eg.db)
+library(biomaRt)
 
 enrichGOdotplot <- function(gene, OrgDb, keyType="ENTREZID", pvalueCutoff=0.05,
                            pAdjustMethod="BH", universe, qvalueCutoff=0.2,
@@ -116,4 +117,24 @@ geneSYMBOL2KEGGID <- function(gene_symbols, expand=FALSE){
   ENTREZ_GENE_IDs = geneSYMBOL2EGID(gene_symbols)
   KEGG_IDs = EGID2KEGGID(ENTREZ_GENE_IDs, expand=expand)
   return (KEGG_IDs)
+}
+
+miRBaseID2ENSEMBL <- function(mirBaseIDs){
+  db  <- useMart("ensembl")
+  hg  <- useDataset("hsapiens_gene_ensembl", mart=db)
+  res <- getBM(attributes = c("mirbase_id", "ensembl_gene_id"),
+               filters = c("mirbase_id"), 
+               values = mirBaseIDs,
+               mart = hg)
+  return (res$ensembl_gene_id)
+}
+
+miRBaseID2KEGG <- function(mirBaseIDs){
+  db  <- useMart("ensembl")
+  hg  <- useDataset("hsapiens_gene_ensembl", mart=db)
+  res <- getBM(attributes = c("mirbase_id", "kegg_enzyme"),
+               filters = c("mirbase_id"), 
+               values = mirBaseIDs,
+               mart = hg)
+  return (res$kegg_enzyme)
 }
