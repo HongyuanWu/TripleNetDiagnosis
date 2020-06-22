@@ -71,11 +71,11 @@ myggsave <- function(filename){
 geneSYMBOL2EGID <- function(gene_symbols){
   # Convert GeneSYMBOL to ENTREZ_GENE_ID
   ENTREZ_GENE_IDs <- mget(x=gene_symbols, envir=revmap(org.Hs.egSYMBOL), ifnotfound=NA)
-  return (ENTREZ_GENE_IDs)
+  return (as.character(ENTREZ_GENE_IDs))
 }
 
 EGID2KEGGID <- function(ENTREZ_GENE_IDs, expand=FALSE){
-  KEGG_IDs <- mget(x=as.character(ENTREZ_GENE_IDs), envir=org.Hs.egPATH, ifnotfound=NA)
+  KEGG_IDs <- mget(x=ENTREZ_GENE_IDs, envir=org.Hs.egPATH, ifnotfound=NA)
   if (expand){
     KEGG_chars <- character()
     i <- 1
