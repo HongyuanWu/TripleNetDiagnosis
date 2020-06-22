@@ -16,7 +16,7 @@ enrichGOdotplot <- function(gene, OrgDb, keyType="ENTREZID", pvalueCutoff=0.05,
                            width=14, height=8, title="", filename=NULL){
   if (FALSE){
     paste("Create a enrichGO dotplot.",
-          "@reference       : https://www.rdocumentation.org/packages/clusterProfiler/versions/3.0.4/topics/enrichGO",
+          "@reference : https://www.rdocumentation.org/packages/clusterProfiler/versions/3.0.4/topics/enrichGO",
           "=========================================================",
           "@params gene          : a vector of entrez gene id.",
           "@params OrgDb         : OrgDb",
@@ -46,12 +46,7 @@ enrichGOdotplot <- function(gene, OrgDb, keyType="ENTREZID", pvalueCutoff=0.05,
   }
   df.all.nrow <- nrow(df.all)
   if (df.all.nrow>0){
-    GeneRatio_float <- c()
-    GeneRatio_str <- df.all$GeneRatio
-    for (i in 1:df.all.nrow){
-      GeneRatio_float[i] <- eval(parse(text=GeneRatio_str[i]))
-    }
-    df.all$GeneRatio <- GeneRatio_float
+    df.all <- fraction2float(df=df.all, colname="GeneRatio")
     df.all$negLog10_Qvalue <- -log10(df.all$qvalue)
     df.all$label <- paste(df.all$ID, df.all$Description)
     df.all$label <- factor(df.all$label, levels=df.all$label[order(df.all$SampleGroup, df.all$GeneRatio)])
@@ -74,12 +69,12 @@ myggsave <- function(filename){
 
 geneSYMBOL2EGID <- function(gene_symbols){
   # Convert GeneSYMBOL to ENTREZ_GENE_ID
-  ENTREZ_GENE_IDs = mget(x=gene_symbols, envir=revmap(org.Hs.egSYMBOL), ifnotfound=NA)
+  ENTREZ_GENE_IDs <- mget(x=gene_symbols, envir=revmap(org.Hs.egSYMBOL), ifnotfound=NA)
   return (ENTREZ_GENE_IDs)
 }
 
 EGID2KEGGID <- function(ENTREZ_GENE_IDs, expand=FALSE){
-  KEGG_IDs = mget(x=as.character(ENTREZ_GENE_IDs), envir=org.Hs.egPATH, ifnotfound=NA)
+  KEGG_IDs <- mget(x=as.character(ENTREZ_GENE_IDs), envir=org.Hs.egPATH, ifnotfound=NA)
   if (expand){
     KEGG_chars <- character()
     i <- 1
