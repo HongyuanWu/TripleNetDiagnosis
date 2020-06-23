@@ -1,15 +1,15 @@
-# Version info: R 3.2.3, clusterProfiler3.0.4
+# Version info: Bioconductor version 3.11 (BiocManager 1.30.10), R 4.0.1 (2020-06-06)
 # Author iwasakishuto
 # Date 2020-06-12
 
 source("generic_utils.R")
-library(clusterProfiler)
-library(DOSE)
-library(GOplot)
-library(BiocManager)
-library(RDAVIDWebService)
-library(org.Hs.eg.db)
-library(biomaRt)
+qlibrary(clusterProfiler)
+qlibrary(DOSE)
+qlibrary(GOplot)
+qlibrary(BiocManager)
+qlibrary(RDAVIDWebService)
+qlibrary(org.Hs.eg.db)
+qlibrary(biomaRt)
 
 enrichGOdotplot <- function(gene, OrgDb, keyType="ENTREZID", pvalueCutoff=0.05,
                            pAdjustMethod="BH", universe, qvalueCutoff=0.2,

@@ -1,3 +1,4 @@
+# Version info: R 4.0.1 (2020-06-06)
 # Author iwasakishuto
 # Date 2020-06-07
 
@@ -20,4 +21,24 @@ fraction2float <- function(df, colname){
   }
   df[, colname] <- floats
   return (df)
+}
+
+qlibrary <- function(package){
+  # make your `library` function very quiet.
+  suppressMessages(suppressWarnings(
+    library(
+      as.character(substitute(package)), 
+      character.only = TRUE
+    )
+  ))
+}
+
+qrequire <- function(package){
+  # make your `require` function very quiet.
+  suppressMessages(suppressWarnings(
+    require(
+      as.character(substitute(package)),
+      character.only = TRUE
+    )
+  ))
 }

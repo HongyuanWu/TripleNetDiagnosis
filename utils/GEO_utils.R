@@ -1,11 +1,11 @@
-# Version info: R 3.6.3, Biobase 2.30.0, GEOquery 2.40.0, limma 3.26.8
+# Version info: Bioconductor version 3.11 (BiocManager 1.30.10), R 4.0.1 (2020-06-06)
 # Author iwasakishuto
 # Date 2020-06-08
 
 source("generic_utils.R")
-library(Biobase)
-library(GEOquery)
-library(limma)
+qlibrary(Biobase)
+qlibrary(GEOquery)
+qlibrary(limma)
 
 GSE2MArrayLM <- function(GSE=NULL, filename=NULL, GPL=NULL, destdir="~/.GEO",
                          colname="", ctrls=c(), cases=c(), all=TRUE){
